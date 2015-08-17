@@ -84,7 +84,7 @@ Recency information about each source queried is given in **sources_used** in th
 | source_last_updated | The most recent date and time the data changed. |
 | last_imported | The most recent date and time the data was imported. |
 
-The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
+The *source_last_updated* field reflects the most recent date and time we noticed that the data for the source country had been updated. We check for updates and import lists at the same time daily.
 
 ##Return Values
 
