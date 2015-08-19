@@ -19,7 +19,7 @@ published: true
 
 Searches for a match within the **subheading_description**, **tariff_rate_quota_note**, **rule_text**, and **tariff_line** fields.
 
-    {{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
 
-	{{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&sources={source countries}
+	{{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&sources={source countries}
 
 **_Example_**
 
@@ -40,7 +40,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 Returns entries based on the final_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&final_year={YYYY TO YYYY}
+    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&final_year={YYYY TO YYYY}
 
 **_Example_**
 
@@ -50,7 +50,7 @@ Returns entries based on the final_year field.  Dates are filtered by comparing 
 
 Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
-    {{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&partner_start_year={YYYY TO YYYY}
+    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&partner_start_year={YYYY TO YYYY}
 
 **_Example_**
 
@@ -60,7 +60,7 @@ Returns entries based on the partner_start_year field.  Dates are filtered by co
 
 Returns entries based on the reporter_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
-	{{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY TO YYYY}
+	{{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY TO YYYY}
 
 **_Example_**
 
