@@ -19,7 +19,7 @@ published: true
 
 Returns taxonomy terms for a match within the **name** and **parent_names** fields.
 
-    {{ site.webservices_baseurl }}/v2/ita_taxonomies/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns taxonomy terms for a match within the **name** and **parent_names** fiel
 
 Returns taxonomy terms that are members of the specified taxonomies.  Enter muliple values separated by commas.
 
-    {{ site.webservices_baseurl }}/v2/ita_taxonomies/search?api_key={your key}&taxonomies={value1,value2}
+    {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&taxonomies={value1,value2}
 
 **_Example_**
 

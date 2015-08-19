@@ -23,7 +23,7 @@ The Issues endpoint can be searched via the following parameters:
 
 Returns entities for a match in the **name_chinese**, **abstract_chinese**, **name_english**, **abstract_english**, **name_french**, **abstract_french**, **name_portuguese**, **abstract_portuguese**, **name_spanish** or **abstract_spanish** fields.
 
-    {{ site.webservices_baseurl }}/v2/envirotech/issues/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/envirotech/issues/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -65,7 +65,7 @@ The Regulations endpoint can be searched via the following parameters:
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
-    {{ site.webservices_baseurl }}/v2/envirotech/regulations/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/envirotech/regulations/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -102,7 +102,7 @@ The Solutions endpoint can be searched via the following parameters:
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
-    {{ site.webservices_baseurl }}/v2/envirotech/solutions/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/envirotech/solutions/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -139,7 +139,7 @@ The Providers endpoint can be searched via the following parameters:
 
 Returns entities for a match in the **name_english** field.
 
-    {{ site.webservices_baseurl }}/v2/envirotech/providers/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/envirotech/providers/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -171,7 +171,7 @@ The Regulatory Analysis Links endpoint can be searched via the following paramet
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
-    {{ site.webservices_baseurl }}/v2/envirotech/analysis_links/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/envirotech/analysis_links/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -209,7 +209,7 @@ The Regulatory Background Links endpoint can be searched via the following param
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
-    {{ site.webservices_baseurl }}/v2/envirotech/background_links/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/envirotech/background_links/search?api_key={your key}&q={keyword}
 
 **_Example_**
 

@@ -19,7 +19,7 @@ published: true
 
 Returns zip code entries for a match within the **post**, **office_name** or **zip_city** fields.
 
-    {{ site.webservices_baseurl }}/v2/ita_zipcode_to_post/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/ita_zipcode_to_post/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns zip code entries for a match within the **post**, **office_name** or **z
 
 Returns zip code entries that match the specified zip codes.  Enter muliple values separated by commas.
 
-    {{ site.webservices_baseurl }}/v2/ita_zipcode_to_post/search?api_key={your key}&zip_codes={value1,value2}
+    {{ site.webservices_baseurl }}/ita_zipcode_to_post/search?api_key={your key}&zip_codes={value1,value2}
 
 **_Example_**
 

@@ -19,7 +19,7 @@ layout: body
 
 Returns market research reports for a match in the **description** or **title** fields.
 
-    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns market research reports for a match in the **description** or **title** 
 
 Returns market research reports for a specific country based on [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&countries={country code}
+    {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns market research reports for a specific country based on [alpha-2 country
 
 Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html). Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&industries={industry names}
+    {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&industries={industry names}
 
 **_Example_**
 
@@ -50,7 +50,7 @@ Returns market research reports for a specific [controlled industry term]({{ sit
 Returns entries based on their expiration date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
