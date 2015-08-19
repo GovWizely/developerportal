@@ -19,7 +19,7 @@ published: true
 
 Returns office locations for a match within the **post** or **office name** fields.
 
-    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/ita_office_locations/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns office locations for a match within the **post** or **office name** fiel
 
 Returns office locations based on city name
 
-    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&city={name of city}
+    {{ site.webservices_baseurl }}/ita_office_locations/search?api_key={your key}&city={name of city}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns office locations based on city name
 
 Returns office locations for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.
 
-    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&countries={country codes}
+    {{ site.webservices_baseurl }}/ita_office_locations/search?api_key={your key}&countries={country codes}
 
 **_Example_**
 
@@ -49,7 +49,7 @@ Returns office locations for a specific country based on [ISO alpha-2 country co
 
 Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](https://www.usps.com/send/official-abbreviations.htm).
 
-    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&state={state postal code abbreviation>}
+    {{ site.webservices_baseurl }}/ita_office_locations/search?api_key={your key}&state={state postal code abbreviation>}
 
 **_Example_**
 

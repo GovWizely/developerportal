@@ -19,7 +19,7 @@ layout: body
 
 Searches for a match within the **title**, **short_title**, **summary**, **content**, and **keyword** fields.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&q={term}
 
 {% include articles-query-keyword.html %}
 
@@ -27,7 +27,7 @@ Searches for a match within the **title**, **short_title**, **summary**, **conte
 
 Returns articles based on the [export phase](export-phases-ita-articles.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&export_phases={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&export_phases={terms}
 
 **_Example_**
 
@@ -37,7 +37,7 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
 Returns articles for a specific [controlled industry terms](industry-list-ita-articles.html). This method allows you to search for multiple industries separated by commas.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&industries={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
@@ -47,7 +47,7 @@ Returns articles for a specific [controlled industry terms](industry-list-ita-ar
 
 Returns articles for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries separated by commas.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&countries={country codes}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&countries={country codes}
 
 **_Example_**
 
@@ -57,7 +57,7 @@ Returns articles for a specific country based on [ISO alpha-2 country codes](htt
 
 Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&topics={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&topics={terms}
 
 **_Example_**
 
@@ -67,7 +67,7 @@ Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple
 
 Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&sub_topics={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&sub_topics={terms}
 
 **_Example_**
 
@@ -77,7 +77,7 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
 Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&geo_regions={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&geo_regions={terms}
 
 **_Example_**
 
@@ -87,7 +87,7 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 
 Returns articles based on [geo sub-region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&geo_subregions={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&geo_subregions={terms}
 
 **_Example_**
 
@@ -97,7 +97,7 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
 Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&trade_regions={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&trade_regions={terms}
 
 **_Example_**
 
@@ -107,7 +107,7 @@ Returns articles based on [trade region](trade-region-list.html).  Enter multipl
 
 Returns articles based on [trade program](trade-program-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&trade_programs={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&trade_programs={terms}
 
 **_Example_**
 
@@ -117,7 +117,7 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
 Returns articles based on [trade initiative](trade-initiative-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&trade_initiatives={terms}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&trade_initiatives={terms}
 
 **_Example_**
 
@@ -128,7 +128,7 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 Returns articles based on the date they were created.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&creation_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&creation_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -139,7 +139,7 @@ Returns articles based on the date they were created.  Dates are filtered by com
 Returns articles based on their release date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&release_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&release_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -150,7 +150,7 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 Returns articles based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
