@@ -14,7 +14,7 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 | --------------- | --------------------------------------------------------------- |
 | 8/19/15         | Deprecated Version 1 of the APIs.  Please use Version 2 going forward - all endpoints now default to Version 2 but you do need to [sign up for an API key](https://api.trade.gov/users/sign_up) to access them.   |
 | 7/22/15         | Added two new APIs:  ITA [Business Service Providers](http://developer.trade.gov/business-service-providers.html) and the [Zip Code to USEAC](http://developer.trade.gov/ita-zip-codes.html) mappings   |
-| 7/17/15         | Enabled developers to download the entire [Market Research Library](/market-research-library.html) by setting ```size=-1```   |
+| 7/17/15         | Enabled developers to download the entire [Market Research Library](http://developer.trade.gov/market-research-library.html) by setting ```size=-1```   |
 | 6/30/15         | Added the ability to download the complete Consolidated Screening List data set as a [CSV](https://api.trade.gov/consolidated_screening_list/search.csv) or [TSV](https://api.trade.gov/consolidated_screening_list/search.tsv) file  |
 | 6/15/15         | Added a new value in the JSON for the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```score: integer```     |
 | 6/15/15         | Added a new parameter to the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```fuzzy_name=true```     |
