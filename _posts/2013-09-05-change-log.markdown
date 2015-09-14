@@ -12,7 +12,7 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 
 | Date            | Change                                                     |
 | --------------- | --------------------------------------------------------------- |
-| 8/19/15         | Deprecated Version 1 of the APIs.  Please use Version 2 going forward - all endpoints now default to Version 2.  You need to [sign up for an API key](https://api.trade.gov/users/sign_up) to access the Version 2 endpoints.   |
+| 8/19/15         | Deprecated Version 1 of the APIs.  Please use Version 2 going forward - all endpoints now default to Version 2 but you do need to [sign up for an API key](https://api.trade.gov/users/sign_up) to access them.   |
 | 7/22/15         | Added two new APIs:  ITA [Business Service Providers](http://developer.trade.gov/business-service-providers.html) and the [Zip Code to USEAC](http://developer.trade.gov/ita-zip-codes.html) mappings   |
 | 6/30/15         | Added the ability to download the complete Consolidated Screening List data set as a [CSV](https://api.trade.gov/consolidated_screening_list/search.csv) or [TSV](https://api.trade.gov/consolidated_screening_list/search.tsv) file  |
 | 6/15/15         | Added a new value in the JSON for the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```score: integer```     |
