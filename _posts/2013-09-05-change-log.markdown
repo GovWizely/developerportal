@@ -14,6 +14,7 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 | --------------- | --------------------------------------------------------------- |
 =======
 | 8/19/15         | Deprecated Version 1 of the APIs.  Please use Version 2 going forward - all endpoints now default to Version 2 but you do need to [sign up for an API key](https://api.trade.gov/users/sign_up) to access them.   |
+| 8/7/15          | Added *source_used* fields to all endpoints that indicatate where the original data sources from, when it was last updated, and when it was last imported.
 | 7/24/15         | Enabled developers to access [documentation through Swagger endpoint](http://developer.trade.gov/api/trade-apis.json).    |
 | 7/22/15         | Added two new APIs:  ITA [Business Service Providers](http://developer.trade.gov/business-service-providers.html) and the [Zip Code to USEAC](http://developer.trade.gov/ita-zip-codes.html) mappings   |
 | 7/17/15         | Enabled developers to download the entire [Market Research Library](http://developer.trade.gov/market-research-library.html) by setting ```size=-1```   |
