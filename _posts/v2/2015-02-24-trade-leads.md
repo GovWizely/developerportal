@@ -266,3 +266,24 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 | source                     	  | MCA. |
 
 CPV numbers in the categories array refer to the [Common Procurement Vocabulary](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) of the European Union.  Use these to help categorize the leads from the MCA.  For example, CPV/45331110 refers to Boiler installation work.
+
+###Australia Leads
+
+
+
+
+##Return Values for Australia
+
+| Field                           | Description  |
+| ------                          | -------------|  
+| agency                          | Agency responsible for the contract. |
+| contract_value                  | Value of the lead.  |
+| description                     | Description of the opportunity. |
+| parent_id                       | Procurement opportunity that this lead is related to. |
+| procurement_method              | Describes who may respond to the lead.  |
+| publish_date_amended            | Amended publish date for the lead. | 
+| status                          | Status of the lead (note this API only shows open leads). |
+| topic                           | Short description of the category that the lead falls under. |
+| url                             | URL that pertains to the bid. |
+| source                          | AUSTRALIA |
+
