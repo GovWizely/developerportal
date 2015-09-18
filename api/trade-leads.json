@@ -269,6 +269,34 @@
                 "categories": {
                     "description": "Array of categories that describe the procurement opportunity.",
                     "type": "string"
+                },
+                "agency": {
+                    "description": "Agency responsible for the contract.",
+                    "type": "string"
+                },
+                "contract_value": {
+                    "description": "Value of the lead.",
+                    "type": "string"
+                },
+                "parent_id": {
+                    "description": "Procurement opportunity that this lead is related to.",
+                    "type": "string"
+                },
+                "procurement_method": {
+                    "description": "Describes who may respond to the lead.",
+                    "type": "string"
+                },
+                "topic": {
+                    "description": "Short description of the category that the lead falls under",
+                    "type": "string"
+                },
+                "topic": {
+                    "description": "Short description of the category that the lead falls under",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "URL that pertains to the bid.",
+                    "type": "string"
                 }
             }
         }
