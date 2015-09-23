@@ -37,7 +37,7 @@ Returns market research reports for a specific country based on [alpha-2 country
 
 ###industries
 
-Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html). Enter multiple terms by separating with a comma.
+Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html) or [ITA Industry]({{ site.baseurl }}/ita-industries-list.html). Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&industries={industry names}
 
@@ -85,6 +85,7 @@ The *source_last_updated* field reflects the most recent date and time we notice
 | description     | Abstract of the report’s content.                                |
 | expiration_date | Date when the report is no longer valid.                         |
 | industries        | Industry categories assigned to the report.                        |
+| ita_industries   | The ITA industries associated with the report.
 | report_type     | The report type can either be CCG, Best Market Report, or Market Research Report.|
 | title           | Report title  (default sort).                                    |
 | url             | URL for the report.                                              |
