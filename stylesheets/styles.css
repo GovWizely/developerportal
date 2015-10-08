@@ -473,6 +473,10 @@ footer {
   bottom: 0px;
 }
 
+.transparent {
+background-color:transparent !important;
+}
+
 /* Custom Swagger UI styles */
 
 
