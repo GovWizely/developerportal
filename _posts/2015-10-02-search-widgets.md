@@ -23,6 +23,12 @@ published: true
           host:     'https://api.trade.gov',
           endpoint: 'trade_leads'
         });
+
+        $("#example-trade-events-widget-container").searchWidget({
+          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
+          host:     'https://api.trade.gov',
+          endpoint: 'trade_events'
+        });
       });
 </script>
 
@@ -40,6 +46,15 @@ published: true
 <h3>Trade Leads Widget</h3>
 
 <div id="example-trade-leads-widget-container"></div>
+
+</div>
+</div>
+
+<div class="jumbotron transparent">
+  <div class="container">
+<h3>Trade Events Widget</h3>
+
+<div id="example-trade-events-widget-container"></div>
 
 </div>
 </div>
