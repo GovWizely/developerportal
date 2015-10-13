@@ -47,10 +47,10 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
-| id              | Unique identifier assigned to the fact sheet.                   |
-| title           | Unique identifier assigned to the fact sheet.                   |
-| content_html    | Unique identifier assigned to the fact sheet.                   |
-| published_date  | Country category(ies) assigned to the report.                   |
-| country         | Country category(ies) assigned to the report.                   |
-| source          | Abstract of the report’s content.                               |
-| topic           | Date when the report is no longer valid.                        |
+| id              | Unique identifier assigned to the country fact sheet.           |
+| title           | Title of the country fact sheet.                                |
+| content_html    | Content of the country fact sheet in HTML format.               |
+| published_date  | Published date of the country fact sheet.                       |
+| country         | Countries relevant to the country fact sheet.                   |
+| source          | STATE.                                                          |
+| topic           | Foreign Relation.                                               |
