@@ -82,5 +82,5 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
             });
         </script>
 
-4.  Endpoint should be set to `"consolidated_screening_list"` for CSL, or `"trade_leads"` for Trade Leads Widget.
+4.  Endpoint should be set to `"consolidated_screening_list"` for CSL, `"trade_leads"` for Trade Leads Widget, or `"trade_events"` for Trade Events widget.
 5.  Add `<div id="example-widget-container"></div>` to wherever you wish the widget to appear.
