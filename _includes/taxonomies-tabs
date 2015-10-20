@@ -6,10 +6,15 @@
 
 	<div class="pane" id="step1">
 		<p>
-		The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its other APIs.  Currently, ITA has three taxonomies:  Geographic Regions, Industries, and Topics.  This API includes all terms in their proper hierarchy in the relevant taxonomy.
+		The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its <a href="api-list.html">other APIs</a>.  Currently, ITA has three taxonomies:  Geographic Regions, Industries, and Topics.  This API includes all terms in their proper hierarchy in the relevant taxonomy.
 		</p>
 		<p>
-		ITA imports data for its other APIs from many sources.  If the source data is already tagged, ITA imports those tags along with the data, maps the tags to ITA’s taxonomies and publishes both the original tags and the ITA tags with the data in the API.
+		ITA imports data for its other APIs from many sources.  If the source data is already tagged, ITA does the following:
+		<ul>
+			<li>Imports those tags along with the data</li>
+			<li>Maps the tags to ITA’s taxonomies</li>
+			<li>Publishes both the original tags and the ITA tags with the data in the API.</li>
+		</ul>
 		</p>
 		<p>The output format for this API is JSON.  This data set is updated weekly.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
 	</div>
