@@ -12,7 +12,7 @@
 		ITA imports data for its other APIs from many sources.  If the source data is already tagged, ITA does the following:
 		<ul>
 			<li>Imports those tags (terms) along with the data</li>
-			<li>Maps the tags to ITA’s taxonomies</li>
+			<li>Maps the terms to ITA’s taxonomies</li>
 			<li>Publishes both the original terms and the ITA terms with the data in the API.</li>
 		</ul>
 		</p>
@@ -20,7 +20,10 @@
 	</div>
 	<div class="pane" id="step2">
 		<p>
-		Having an established taxonomy enables developers to quickly search for particular content and data.  ITA tags content and data at the lowest, reasonable level of detail.  ITA reviews and upgrades its taxonomies on a regular basis to ensure it reflects the content and data accurately.  As such, developers can be assured that when they perform a query on a particular term they will receive only the results that are relevant to that term.
+		Having an established taxonomy enables developers to quickly search for particular content and data.  ITA tags content and data at the lowest, reasonable level of detail.
+		</p>
+		<p>
+		ITA reviews and upgrades its taxonomies on a regular basis to ensure it reflects the content and data accurately.  As such, developers can be assured that when they perform a query on a particular term they will receive only the results that are relevant to that term.
 		</p>
 	</div>
 	<div class="pane" id="step3">
