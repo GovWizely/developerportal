@@ -15,7 +15,7 @@ Below is the list of all available APIs that ITA provides.  Documentation for ea
 
 ITA has also developed simple search apps designed to help our data customers easily explore the data that’s available at each endpoint. Developers can also use the code for these demo apps as building-blocks for their own search applications. The code uses the Ember JavaScript framework and can be found on [ITA’s GitHub repo](https://github.com/InternationalTradeAdministration/explorer).
 
-Finally, ITA provides widgets for several of its APIs.  They make it as easy as possible to put a search engine for several of our APIs on your web page. Simply follow the instructions below to embed the code, and to change the look and feel to match your site.
+Finally, ITA provides [widgets](search-widgets.html) for several of its APIs.  They make it as easy as possible to put a search engine for several of our APIs on your web page. Simply follow the instructions below to embed the code, and to change the look and feel to match your site.
 
 | Endpoint HTML Documentation	| JSON Documentation | Explore the Data | Widget Code
 | -------------| -------------|-------------|-------------|

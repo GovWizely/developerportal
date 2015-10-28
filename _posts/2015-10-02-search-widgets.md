@@ -7,7 +7,7 @@ published: true
 
 #ITA Search Widgets
 
-ITA has created these widgets to make it as easy as possible to put a search engine for each of our APIs on your web page.  Simply follow the instructions below to embed the code, and to change the look and feel to match your site.
+ITA has created these widgets to make it as easy as possible to put a search engine for several of our APIs on your web page.  Simply follow the instructions below to embed the code, and to change the look and feel to match your site.
 
 These search widgets deliver results straight from our APIs so your customers get the same results as anyone using the APIs directly.  Please [contact us](contact.html) if you have any questions on how to install and use the widgets.
 
