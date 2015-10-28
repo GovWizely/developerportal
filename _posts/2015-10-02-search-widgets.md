@@ -1,7 +1,7 @@
 --- 
 permalink: "search-widgets.html" 
 layout: body 
-title: App Gallery 
+title: ITA Search Widgets 
 published: true 
 ---
 
