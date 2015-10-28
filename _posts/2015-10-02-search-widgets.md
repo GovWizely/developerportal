@@ -7,7 +7,8 @@ published: true
 
 #ITA Search Widgets
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+ITA has created these widgets to make it as easy as possible to put a search engine for each of our APIs on your web page.  Simply follow the instructions below to embed the code, and to change the look and feel to match your site.
+These search widgets deliver results straight from our APIs so your customers get the same results as anyone using the APIs directly.  Please [contact us](contact.html) if you have any questions on how to install and use the widgets.
 
 <link rel="stylesheet" type="text/css" href="widget.css">
 <script type="text/javascript" src="widget.js"></script>
@@ -34,27 +35,44 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
       });
 </script>
 
+---
+
+###Consolidated Screening List Widget
+
+The [Consolidated Screening List](consolidated-screening-list.html) widget searches eleven export screening lists from the Departments of Commerce, State and the Treasury.  The widget enables your customers to do a quick screening search for people or companies with whom they are doing business or are party to their overseas transactions.
+
+The widget returns results that are either exact matches and near matches in case your customers don’t have the exact spelling of the name.  The closer the match, the higher the name in the results.
+
 <div class="jumbotron transparent">
   <div class="container">
-<h3>CSL Widget</h3>
 
 <div id="example-widget-container"></div>
 
 </div>
 </div>
 
+###Trade Leads Widget
+
+The [Trade Leads](trade-leads.html) widget searches contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources including FedBizOps, The United Kingdom, Canada, The Millennium Challenge Corporation, and Australia.
+
+The widget enables your customers to do a quick search for trade leads, procurement opportunities, and contract notifications in a particular country or within all countries.  They can also search for all of the leads in a country by leaving the search box blank. 
+
 <div class="jumbotron transparent">
   <div class="container">
-<h3>Trade Leads Widget</h3>
-
+  
 <div id="example-trade-leads-widget-container"></div>
 
 </div>
 </div>
 
+###Trade Events Widget
+
+The [Trade Events](trade-events.html) widget searches for events organized by ITA, the U.S. Trade and Development Agency, the State Department, and the Small Business Administration.
+
+The widget enables your customers to do a quick search for trade events such as industry conferences, webinars, lectures, and trade missions in a particular country or within all countries.  They can also search for all of the events in a country by leaving the search box blank. 
+
 <div class="jumbotron transparent">
   <div class="container">
-<h3>Trade Events Widget</h3>
 
 <div id="example-trade-events-widget-container"></div>
 

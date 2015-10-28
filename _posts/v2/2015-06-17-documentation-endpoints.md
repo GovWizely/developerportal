@@ -15,17 +15,17 @@ Below is the list of all available APIs that ITA provides.  Documentation for ea
 
 ITA has also developed simple search apps designed to help our data customers easily explore the data that’s available at each endpoint. Developers can also use the code for these demo apps as building-blocks for their own search applications. The code uses the Ember JavaScript framework and can be found on [ITA’s GitHub repo](https://github.com/InternationalTradeAdministration/explorer).
 
-| Endpoint Name	| HTML Documentation | JSON Documentation | Explore the Data |
+| Endpoint HTML Documentation	| JSON Documentation | Explore the Data | Widget Code
 | -------------| -------------|-------------|-------------|
-| All endpoints | N/A | [JSON](api/trade-apis.json) | N/A |
-| Market Research Library | [HTML](market-research-library.html) | [JSON](api/market-research-library.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/market-research-library-entries) |
-| Consolidated Screening List | [HTML](consolidated-screening-list.html) | [JSON](api/consolidated-screening-lists.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries) |
-| Trade Events | [HTML](trade-events.html) | [JSON](api/trade-events.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-events) |
-| Trade Leads | [HTML](trade-leads.html) | [JSON](api/trade-leads.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-leads) |
-| Tariff Rates | [HTML](tariff-rates.html) | [JSON](api/tariff-rates.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/tariff-rates) |
-| FAQs on Exporting | [HTML](faqs-exporting.html) | [JSON](api/ita-faqs.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-faqs) |
-| ITA Offices & Centers | [HTML](ita-office-locations.html) | [JSON](api/ita-office-locations.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations) |
-| Trade News & Articles | [HTML](ita-trade-articles.html) | [JSON](api/ita-articles.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles) |
-| Zip Code to USEAC | [HTML](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) |
-| Business Service Providers | [HTML](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) |
-| ITA Taxonomies | [HTML](ita-taxonomies.html) | [JSON](api/ita-taxonomies.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies) |
+| All endpoints | [JSON](api/trade-apis.json) | N/A |  N/A | 
+| [Market Research Library](market-research-library.html) | [JSON](api/market-research-library.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/market-research-library-entries) | N/A | 
+| [Consolidated Screening List](consolidated-screening-list.html) | [JSON](api/consolidated-screening-lists.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries) | [Code](search-widgets.html) | 
+| [Trade Events](trade-events.html) | [JSON](api/trade-events.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-events) | [Code](search-widgets.html) | 
+| [Trade Leads](trade-leads.html) | [JSON](api/trade-leads.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-leads) | [Code](search-widgets.html) | 
+| [Tariff Rates](tariff-rates.html) | [JSON](api/tariff-rates.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/tariff-rates) | N/A | 
+| [FAQs on Exporting](faqs-exporting.html) | [JSON](api/ita-faqs.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-faqs) | N/A | 
+| [ITA Offices & Centers](ita-office-locations.html) | [JSON](api/ita-office-locations.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations) | N/A | 
+| [Trade News & Articles](ita-trade-articles.html) |[JSON](api/ita-articles.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles) | N/A | 
+| [Zip Code to USEAC](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) | N/A | 
+| [Business Service Providers](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) | N/A | 
+| [ITA Taxonomies](ita-taxonomies.html) | [JSON](api/ita-taxonomies.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies) | N/A | 
