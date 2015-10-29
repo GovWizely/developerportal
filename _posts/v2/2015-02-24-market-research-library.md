@@ -37,7 +37,7 @@ Returns market research reports for a specific country based on [alpha-2 country
 
 ###industries
 
-Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html) or [ITA Industry]({{ site.baseurl }}/ita-industries.html). Enter multiple terms by separating with a comma.
+Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html) or ITA Industry. Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&industries={industry names}
 
