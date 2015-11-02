@@ -1,25 +1,25 @@
 	<!--news line 1-->
         <p>
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/ITA-has-Frozen-the-FAQs-on-Exporting-API">
+        <p class="news">ITA has Frozen the FAQs on Exporting API</p>
+        </a>
+        <h7>November 2, 2015</h7>
+        </p>
+        
+        <!--news line 2-->
+        <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Updates-to-the-Market-Research-Library-API">
         <p class="news">Updates to the Market Research Library API are Coming this Fall</p>
         </a>
         <h7>September 9, 2015</h7>
         </p>
         
-        <!--news line 2-->
+        <!--news line 3-->
         <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Version-1-of-the-APIs-Has-Been-Deprecated">
         <p class="news">Version 1 of the APIs Has Been Deprecated</p>
         </a>
         <h7>August 19, 2015</h7>
-        </p>
-        
-	<!--news line 3-->
-        <p class="list">
-        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Two-New-APIs:-More-Resources-for-U.S.-Exporters">
-        <p class="news">Two New APIs: More Resources for U.S. Exporters.</p>
-        </a>
-        <h7>July 22, 2015</h7>
         </p>
         
        	<!--news line 4-->
