@@ -283,6 +283,12 @@ CPV numbers in the categories array refer to the [Common Procurement Vocabulary]
 | procurement_method              | Describes who may respond to the lead.  |
 | publish_date_amended            | Amended publish date for the lead. | 
 | status                          | Status of the lead (note this API only shows open leads). |
+| industry                        | Industry tag associated with the lead. |
+| project_number                  | Unique number assigned to the lead.  |
+| publish_date                    | Date lead was posted. |
+| start_date                      | Beginning date for the contract period.  |
+| end_date                        | Closing date for the contract period.  |
+| country                         | The country associated with the lead. | 
 | topic                           | Short description of the category that the lead falls under. |
 | url                             | URL that pertains to the bid. |
 | source                          | AUSTRALIA |
