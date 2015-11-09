@@ -269,8 +269,7 @@ CPV numbers in the categories array refer to the [Common Procurement Vocabulary]
 
 ###Australia Leads
 
-
-
+The [Australian Government](https://www.tenders.gov.au/) provides procurement information for their government opportunities.
 
 ##Return Values for Australia
 
