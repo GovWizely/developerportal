@@ -14,7 +14,7 @@ These search widgets deliver results straight from our APIs so your customers ge
 <link rel="stylesheet" type="text/css" href="widget.css">
 <script type="text/javascript" src="widget.js"></script>
 
-<script>
+  <script>
       $(document).ready(function ($) {
         $("#example-widget-container").searchWidget({
           apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
@@ -34,14 +34,13 @@ These search widgets deliver results straight from our APIs so your customers ge
           endpoint: 'trade_events'
         });
 
-        $("#example-ita-zipcode-to-post-widget-container").searchWidget({
+        $("#example-useac-locations-widget-container").searchWidget({
           apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
           host:     'https://api.trade.gov',
-          endpoint: 'ita_zipcode_to_post'
+          endpoint: 'useac_locations'
         });
-
       });
-</script>
+    </script>
 
 ---
 
@@ -97,7 +96,7 @@ The widget enables your customers to do a quick search for search for both a zip
 <div class="jumbotron transparent">
   <div class="container">
 
-<div id="example-ita-zipcode-to-post-widget-container"></div>
+<div id="example-useac-locations-widget-container"></div>
 
 </div>
 </div>
