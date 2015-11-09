@@ -14,7 +14,7 @@ These search widgets deliver results straight from our APIs so your customers ge
 <link rel="stylesheet" type="text/css" href="widget.css">
 <script type="text/javascript" src="widget.js"></script>
 
-<script>
+  <script>
       $(document).ready(function ($) {
         $("#example-widget-container").searchWidget({
           apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
@@ -33,8 +33,14 @@ These search widgets deliver results straight from our APIs so your customers ge
           host:     'https://api.trade.gov',
           endpoint: 'trade_events'
         });
+
+        $("#example-useac-locations-widget-container").searchWidget({
+          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
+          host:     'https://api.trade.gov',
+          endpoint: 'useac_locations'
+        });
       });
-</script>
+    </script>
 
 ---
 
@@ -79,6 +85,22 @@ The widget enables your customers to do a quick search for trade events such as 
 
 </div>
 </div>
+
+
+###Export Assistance Centers Widget
+
+The [Export Assistance Centers](ita-zip-codes.html) widget provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.
+
+The widget enables your customers to do a quick search for search for both a zip code and a USEAC. Each center has specialists on hand for each particular region.
+
+<div class="jumbotron transparent">
+  <div class="container">
+
+<div id="example-useac-locations-widget-container"></div>
+
+</div>
+</div>
+
 
 ##Add a widget to your web page:
 

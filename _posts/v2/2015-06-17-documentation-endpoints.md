@@ -28,6 +28,6 @@ Finally, ITA provides [widgets](search-widgets.html) for several of its APIs.  T
 | [FAQs on Exporting](faqs-exporting.html) | [JSON](api/ita-faqs.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-faqs) | N/A | 
 | [ITA Offices & Centers](ita-office-locations.html) | [JSON](api/ita-office-locations.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations) | N/A | 
 | [Trade News & Articles](ita-trade-articles.html) |[JSON](api/ita-articles.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles) | N/A | 
-| [Zip Code to USEAC](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) | N/A | 
+| [Zip Code to USEAC](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) | [Code](search-widgets.html) | 
 | [Business Service Providers](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) | N/A | 
 | [ITA Taxonomies](ita-taxonomies.html) | [JSON](api/ita-taxonomies.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies) | N/A | 
