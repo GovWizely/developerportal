@@ -39,6 +39,12 @@ These search widgets deliver results straight from our APIs so your customers ge
           host:     'https://api.trade.gov',
           endpoint: 'useac_locations'
         });
+      
+       $("#example-ita-office-locations-widget-container").searchWidget({
+          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
+          host:     'https://api.trade.gov',
+          endpoint: 'ita_office_locations'
+        });
       });
     </script>
 
@@ -97,6 +103,16 @@ The widget enables your customers to do a quick search for search for both a zip
   <div class="container">
 
 <div id="example-useac-locations-widget-container"></div>
+
+</div>
+</div>
+
+###International Office Locations Widget
+
+<div class="jumbotron transparent">
+  <div class="container">
+
+<div id="example-ita-office-locations-widget-container"></div>
 
 </div>
 </div>
