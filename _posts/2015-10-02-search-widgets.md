@@ -109,6 +109,8 @@ The widget enables your customers to do a quick search for search for both a zip
 
 ###International Office Locations Widget
 
+The [International Office Locations](ita-office-locations.html) provides direct access to ITA offices and centers around the world. The widget enables your customers to do a quick search for an office in a particular city or country. Each office has specialists on hand for each particular region.
+
 <div class="jumbotron transparent">
   <div class="container">
 
