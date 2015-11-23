@@ -75,6 +75,10 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
+##Search Performed At
+
+The *search_performed_at* field displays the date and time of the current search in UTC.
+
 ###Return Values
 
 | Field             | Description                                                     |
