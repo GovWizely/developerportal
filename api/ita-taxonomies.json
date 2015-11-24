@@ -58,9 +58,9 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "History information for the given user",
+                        "description": "",
                         "schema": {
-                            "$ref": "#/definitions/Center"
+                            "$ref": "#/definitions/Taxonomy"
                         }
                     }
                 }
@@ -68,7 +68,7 @@
         }
     },
     "definitions": {
-        "Center": {
+        "Taxonomy": {
             "properties": {
                 "id": {
                     "type": "string",
