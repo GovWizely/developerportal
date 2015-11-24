@@ -17,7 +17,7 @@ published: true
 
 ###keyword
 
-Returns de minimis rates for a match in the **country_name** or **notes** fields.
+Returns de minimis rates for a match in the **country** or **notes** fields.
 
     {{ site.webservices_baseurl }}/de_minimis/search?api_key={your key}&q={keyword}
 
@@ -27,7 +27,7 @@ Returns de minimis rates for a match in the **country_name** or **notes** fields
 
 ###countries
 
-Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). Enter multiple terms by seperating with a comma.
+Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/country_codes). Enter multiple terms by seperating with a comma.
 
     {{ site.webservices_baseurl }}/de_minimis/search?api_key={your key}&countries={country code}
 
@@ -47,10 +47,10 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field               | Description                                                     |
 | ---------------     | --------------------------------------------------------------- |
-| country_name        | Name of the country |
-| countries           | ISO-2 country code for De Minimis |
+| country             | Name of the country |
+| countries           | [ISO-2 country code](http://www.iso.org/iso/country_codes)  |
 | de_minimis_value    | De Minimis value for that country |
-| de_minimis_currency | ISO3 currency code for the country's De Minimis |
+| de_minimis_currency | [ISO-3 currency code](http://www.iso.org/iso/home/standards/currency_codes.htm) for the country's De Minimis |
 | vat_amount          | Value Added Tax amount |
-| vat_currency        | ISO3 currency code for the country's VAT |
-| notes               | Notes for each De Minimis amount |
+| vat_currency        | [ISO-3 currency code](http://www.iso.org/iso/home/standards/currency_codes.htm) for the country's VAT |
+| notes               | Notes for each De Minimis and VAT amount |

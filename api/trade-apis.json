@@ -915,7 +915,7 @@
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Returns de minimis rates for a match in the country_name or notes fields.",
+                        "description": "Returns de minimis rates for a match in the country or notes fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -1783,12 +1783,12 @@
         },
         "DeMinimis": {
             "properties": {
-                "country_name": {
+                "country": {
                     "description": "Name of the country",
                     "type": "string"
                 },
                 "countries": {
-                    "description": "ISO-2 country code for De Minimis",
+                    "description": "ISO-2 country code",
                     "type": "string"
                 },
                 "de_minimis_value": {
@@ -1796,7 +1796,7 @@
                     "type": "string"
                 },
                 "de_minimis_currency": {
-                    "description": "ISO3 currency code for the country's De Minimis",
+                    "description": "ISO-3 currency code for the country's De Minimis",
                     "type": "string"
                 },
                 "vat_amount": {
@@ -1804,11 +1804,11 @@
                     "type": "string"
                 },
                 "vat_currency": {
-                    "description": "ISO3 currency code for the country's VAT",
+                    "description": "ISO-3 currency code for the country's VAT",
                     "type": "string"
                 },
                 "notes": {
-                    "description": "Notes for each De Minimis amount",
+                    "description": "Notes for each De Minimis and VAT amount",
                     "type": "string"
                 }
             }
