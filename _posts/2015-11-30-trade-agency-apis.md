@@ -13,8 +13,10 @@ ITA works with many other federal agencies to help U.S. companies get the resour
 ####The Census Bureau
 
 The Foreign Trade office at The Census Bureau is the official source for U.S. export and import statistics, export regulations, and commodity classifications.  Census provides data specifically about products and goods.
-- International Trade
-  - The International Trade API provides annual import and export trade statistics with all major U.S. trade partners, and includes the total value of all traded commodities, and the total value of all traded manufactured goods. In addition, the International Trade API provides state-level commodity trade with those trading partners.
+
+#####[International Trade](http://www.census.gov/data/developers/data-sets/international-trade.html)
+
+- The International Trade API provides annual import and export trade statistics with all major U.S. trade partners, and includes the total value of all traded commodities, and the total value of all traded manufactured goods. In addition, the International Trade API provides state-level commodity trade with those trading partners.
 - International Data Base (IDB)
   - The IDB offers a variety of demographic indicators for countries and areas of the world with a population of 5,000 or more.  Population size (by single year of age and sex) and components of change (fertility, mortality, and migration) are provided for each calendar year beyond the initial or base year, through 2050.
 
