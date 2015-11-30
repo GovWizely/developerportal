@@ -1,12 +1,20 @@
 	<!--news line 1-->
         <p>
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Five-%E2%80%9CWidgets%E2%80%9D-You-Can-Immediately-Drop-Into-Your-Site">
+        <p class="news">Five “Widgets” You Can Immediately Drop Into Your Site</p>
+        </a>
+        <h7>November 2, 2015</h7>
+        </p>
+        
+        <!--news line 2-->
+        <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/ITA-has-Frozen-the-FAQs-on-Exporting-API">
         <p class="news">ITA has Frozen the FAQs on Exporting API</p>
         </a>
         <h7>November 2, 2015</h7>
         </p>
         
-        <!--news line 2-->
+        <!--news line 3-->
         <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Updates-to-the-Market-Research-Library-API">
         <p class="news">Updates to the Market Research Library API are Coming this Fall</p>
@@ -14,20 +22,12 @@
         <h7>September 9, 2015</h7>
         </p>
         
-        <!--news line 3-->
+        <!--news line 4-->
         <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Version-1-of-the-APIs-Has-Been-Deprecated">
         <p class="news">Version 1 of the APIs Has Been Deprecated</p>
         </a>
         <h7>August 19, 2015</h7>
-        </p>
-        
-       	<!--news line 4-->
-        <p class="list">
-        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/%E2%80%9CFuzzy%E2%80%9D-Name-Search-is-Live-for-the-CSL">
-        <p class="news">You can now do <em>fuzzy</em> name searches on the Consolidated Screening List.</p>
-        </a>
-        <h7>June 15, 2015</h7>
         </p>
         
  	<!--news line X - SAVE THIS FOR FUTURE DATE -->
