@@ -4,7 +4,7 @@ body {
   font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #535353;
   font-weight: 300;
-  background: #f8f8f8;
+  background: #f6f9fa;
   padding: 0;
   margin: 0;
 }
@@ -23,7 +23,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 32px;
+  line-height: 1.6;
   color: #0851ab;
 }
 
@@ -226,7 +227,7 @@ header p {
 }
 
 .view a {
-  color: #494949;
+  color: #222;
 }
 
 .clearfix:after {
