@@ -12,11 +12,10 @@ exclude:
   - vendor
 markdown: kramdown
 webservices_baseurl: 'https://api.govwizely.com'
+webservices_baseurl_users_signup: 'https://api.trade.gov/users/sign_up'
 apikey: 'Jnl2JctPOiUL9x7HVFR2m8Sr'
 
-left_nav_available_apis:
-- text: Market Research Library
-  url: market-research-library.html
+left_nav_top_apis:
 - text: Consolidated Screening List
   url: consolidated-screening-list.html
 - text: Trade Events
@@ -25,15 +24,16 @@ left_nav_available_apis:
   url: trade-leads.html
 - text: Tariff Rates
   url: tariff-rates.html
-- text: FAQs on Exporting
-  url: faqs-exporting.html
+- text: De Minimis
+  url: de-minimis.html
+
+left_nav_api_resources:
 - text: List of all APIs
   url: api-list.html
+- text: Search Widgets
+  url: search-widgets.html
 
-
-mobile_nav_available_apis:
-- text: Market Research Library
-  url: market-research-library.html
+mobile_nav_top_apis:
 - text: Consolidated Screening List
   url: consolidated-screening-list.html
 - text: Trade Events
@@ -42,10 +42,8 @@ mobile_nav_available_apis:
   url: trade-leads.html
 - text: Tariff Rates
   url: tariff-rates.html
-- text: FAQs on Exporting
-  url: faqs-exporting.html
-- text: List of all APIs
-  url: api-list.html
+- text: De Minimis
+  url: de-minimis.html
 
 mobile_nav_additional_resources:
 - text: Guidance
@@ -54,14 +52,14 @@ mobile_nav_additional_resources:
   url: contact.html
 - text: App Gallery
   url: app-gallery.html
-- text: API List
+- text: List of all APIs
   url: api-list.html
-- text: Search Widgets
-  url: search-widgets.html
 - text: API FAQs
   url: api-faqs.html
 - text: Change Log
   url: change-log.html
+- text: APIs from Trade Agencies
+  url: trade-agency-apis.html
 - text: Terms of Service
   url: tos.html
 

@@ -4,9 +4,14 @@ body {
   font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #535353;
   font-weight: 300;
-  background: #f8f8f8;
+  background: #f6f9fa;
   padding: 0;
   margin: 0;
+}
+
+em {
+margin-top:15px;
+ color:#999;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,7 +28,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
+  line-height: 1.5;
   color: #0851ab;
 }
 
@@ -180,7 +186,7 @@ header {
 }
 
 header h3 {
-  margin: 5px;
+  margin:15px 0;
 }
 
 header ul {
@@ -226,7 +232,7 @@ header p {
 }
 
 .view a {
-  color: #494949;
+  color: #222;
 }
 
 .clearfix:after {
@@ -300,6 +306,26 @@ section p a {
 
 #body-content {
   padding: 0 25px;
+}
+
+#body-content h2 {
+  font-size: 30px;
+  font-weight:300;
+  line-height: 2;
+  color: #000;
+  border: 0;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+#body-content h3 {
+  margin-top:25px;
+  font-size: 18px;
+  font-weight:300;
+  line-height: 1;
+  color: #222;
+  padding:10px;
+  background:#e9f0f3;
 }
 
 #intro img {
