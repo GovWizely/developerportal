@@ -116,7 +116,7 @@ The *source_last_updated* field reflects the most recent date and time we notice
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-###Canadian Leads
+##Canadian Leads
 
 The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.
 
@@ -126,7 +126,7 @@ Canadian leads are subject to Canada's license located at:
 
 [http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
 
-##Return Values for Canada
+######Return Values for Canada
 
 | Field	                               | Description  |
 | ------                               | -------------|
@@ -153,12 +153,12 @@ Canadian leads are subject to Canada's license located at:
 | source                               | CANADA. |
 
 
-### FedBizOps / FBOpen Leads
+## FedBizOps / FBOpen Leads
 
 [FedBizOps](https://www.fbo.gov/) is an online system provided by the General Services Administration that publishes procurement opportunities on behalf of 132 federal agencies.  The ITA Trade Leads API includes only non-U.S. based  procurements that are available through the [FBOpen endpoint](https://fbopen.gsa.gov/).
 
 
-##Return Values for FBOpen
+######Return Values for FBOpen
 
 
 | Field	                               | Description  |
@@ -182,7 +182,7 @@ Canadian leads are subject to Canada's license located at:
 | source                               | FBO. |
 
 
-###State Department Description
+##State Department Description
 
 The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
 
@@ -192,7 +192,7 @@ State Department leads are subject to their open government license located at:
 
 [https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
 
-##Return Values for State Department
+######Return Values for State Department
 
 | Field	                             | Description  |
 | ------                             | -------------|  
@@ -219,7 +219,7 @@ State Department leads are subject to their open government license located at:
 | status                             | Status of the lead (note this API only shows open leads). |
 | source                             | STATE. |
 
-###UK Government Leads
+##UK Government Leads
 
 The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides procurement information for their government opportunities.
 
@@ -229,7 +229,7 @@ UK leads are subject to their open government license located at:
 
 [http://www.nationalarchives.gov.uk/doc/open-government-licence/](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
 
-##Return Values for UK
+######Return Values for UK
 
 | Field	                          | Description  |
 | ------                          | -------------|  
@@ -254,7 +254,7 @@ UK leads are subject to their open government license located at:
 
 The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement information for opportunities that meet their rigorous standards.
 
-##Return Values for MCA
+######Return Values for MCA
 
 | Field	                          | Description  |
 | ------                          | -------------|  
@@ -273,11 +273,11 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 
 CPV numbers in the categories array refer to the [Common Procurement Vocabulary](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) of the European Union.  Use these to help categorize the leads from the MCA.  For example, CPV/45331110 refers to Boiler installation work.
 
-###Australia Leads
+##Australia Leads
 
 The [Australian Government](https://www.tenders.gov.au/) provides procurement information for their government opportunities.
 
-##Return Values for Australia
+######Return Values for Australia
 
 | Field                           | Description  |
 | ------                          | -------------|  
