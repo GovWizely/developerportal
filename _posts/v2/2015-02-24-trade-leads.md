@@ -190,7 +190,7 @@ The [State Department's](http://bids.state.gov/) Business Information Database S
 
 State Department leads are subject to their open government license located at:
 
-[https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
+[https://github.com/USStateDept/bids-archive](https://github.com/USStateDept/bids-archive)
 
 ##Return Values for State Department
 
