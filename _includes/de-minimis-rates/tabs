@@ -8,7 +8,7 @@
     <p>
       The De Minimis API provides data about the De Minimis amount and the Value Added Tax (VAT) amount 
       that products may be subject to when exported to foreign countries.  “De Minimis” is the threshold 
-      for a product’s value below which no duty or tax is charged.  Furthermore, products below the De Minimis 
+      for a product’s value below which no duty is charged.  Furthermore, products below the De Minimis 
       undergo minimal clearance procedures, such as customs and paperwork requirements.  
       Similarly, the value of the exported products must exceed the VAT amount before it is subject to VAT.
     </p>
