@@ -126,7 +126,7 @@ Canadian leads are subject to Canada's license located at:
 
 [http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
 
-######Return Values for Canada
+##Return Values for Canada
 
 | Field	                               | Description  |
 | ------                               | -------------|
@@ -158,7 +158,7 @@ Canadian leads are subject to Canada's license located at:
 [FedBizOps](https://www.fbo.gov/) is an online system provided by the General Services Administration that publishes procurement opportunities on behalf of 132 federal agencies.  The ITA Trade Leads API includes only non-U.S. based  procurements that are available through the [FBOpen endpoint](https://fbopen.gsa.gov/).
 
 
-######Return Values for FBOpen
+##Return Values for FBOpen
 
 
 | Field	                               | Description  |
@@ -192,7 +192,7 @@ State Department leads are subject to their open government license located at:
 
 [https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
 
-######Return Values for State Department
+##Return Values for State Department
 
 | Field	                             | Description  |
 | ------                             | -------------|  
@@ -229,7 +229,7 @@ UK leads are subject to their open government license located at:
 
 [http://www.nationalarchives.gov.uk/doc/open-government-licence/](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
 
-######Return Values for UK
+##Return Values for UK
 
 | Field	                          | Description  |
 | ------                          | -------------|  
@@ -254,7 +254,7 @@ UK leads are subject to their open government license located at:
 
 The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement information for opportunities that meet their rigorous standards.
 
-######Return Values for MCA
+##Return Values for MCA
 
 | Field	                          | Description  |
 | ------                          | -------------|  
@@ -277,7 +277,7 @@ CPV numbers in the categories array refer to the [Common Procurement Vocabulary]
 
 The [Australian Government](https://www.tenders.gov.au/) provides procurement information for their government opportunities.
 
-######Return Values for Australia
+##Return Values for Australia
 
 | Field                           | Description  |
 | ------                          | -------------|  
