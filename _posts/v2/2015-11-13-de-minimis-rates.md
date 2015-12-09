@@ -19,7 +19,7 @@ published: true
 
 Returns de minimis rates for a match in the **country** or **notes** fields.
 
-    {{ site.webservices_baseurl }}/de_minimis/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/v1/de_minimis/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns de minimis rates for a match in the **country** or **notes** fields.
 
 Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/country_codes). Enter multiple terms by seperating with a comma.
 
-    {{ site.webservices_baseurl }}/de_minimis/search?api_key={your key}&countries={country code}
+    {{ site.webservices_baseurl }}/v1/de_minimis/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
