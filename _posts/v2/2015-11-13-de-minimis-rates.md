@@ -11,6 +11,8 @@ published: true
 
 ##Resource URL
 
+_Note: be sure to include the version number (v#) in the URL as specified below._
+
 {% include de-minimis-rates/query.html %}
 
 ##Search Parameters
