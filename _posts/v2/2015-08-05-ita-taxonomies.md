@@ -43,7 +43,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include taxonomies-query-size.html %}
 
-##Last Updated and Last Imported
+##Metadata
+
+###Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -55,11 +57,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-##Search Performed At
+###Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-###Return Values
+##Return Values
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |

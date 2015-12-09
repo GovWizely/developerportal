@@ -43,12 +43,12 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include de-minimis-rates/query-size.html %}
 
-###Return Values
+##Return Values
 
 | Field               | Description                                                     |
 | ---------------     | --------------------------------------------------------------- |
-| country             | Name of the country |
-| countries           | [ISO-2 country code](http://www.iso.org/iso/country_codes)  |
+| country_name        | Name of the country |
+| country             | [ISO-2 country code](http://www.iso.org/iso/country_codes)  |
 | de_minimis_value    | De Minimis value for that country |
 | de_minimis_currency | [ISO-3 currency code](http://www.iso.org/iso/home/standards/currency_codes.htm) for the country's De Minimis |
 | vat_amount          | Value Added Tax amount |
