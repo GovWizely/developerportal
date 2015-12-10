@@ -43,6 +43,24 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include de-minimis-rates/query-size.html %}
 
+##Metadata
+
+###Last Updated and Last Imported
+
+Recency information about each source queried is given in **sources_used** in the following fields:
+
+| Field	| Description |
+| ------| -------------|
+| source | ITA’s De Minimis list. |
+| source_last_updated | The most recent date and time the data changed. |
+| last_imported | The most recent date and time the data was imported. |
+
+The *source_last_updated* field reflects the most recent date and time that we have updated the data.
+
+###Search Performed At
+
+The *search_performed_at* field displays the date and time of the current search in UTC.
+
 ###Return Values
 
 | Field               | Description                                                     |
