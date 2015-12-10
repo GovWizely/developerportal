@@ -70,6 +70,8 @@ Returns entries based on the reporter_start_year field.  Dates are filtered by c
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
+    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+
 **_Example_**
 
 {% include tariff-rates-query-size.html %}

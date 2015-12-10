@@ -160,6 +160,8 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
+    {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+
 **_Example_**
 
 {% include articles-query-size.html %}
