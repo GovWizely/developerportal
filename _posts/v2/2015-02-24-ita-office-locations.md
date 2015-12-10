@@ -59,6 +59,8 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
+    {{ site.webservices_baseurl }}/ita_office_locations/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+
 **_Example_**
 
 {% include office-centers-query-size.html %}
