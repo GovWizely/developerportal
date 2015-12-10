@@ -1,12 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.4 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #535353;
   font-weight: 300;
-  background: #f8f8f8;
+  background: #f6f9fa;
   padding: 0;
   margin: 0;
+}
+
+em {
+ color:#999;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 h1, h2, h3 {
@@ -23,7 +27,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
+  line-height: 1.5;
   color: #0851ab;
 }
 
@@ -180,7 +185,7 @@ header {
 }
 
 header h3 {
-  margin: 5px;
+  margin:15px 0;
 }
 
 header ul {
@@ -226,7 +231,7 @@ header p {
 }
 
 .view a {
-  color: #494949;
+  color: #222;
 }
 
 .clearfix:after {
@@ -300,6 +305,33 @@ section p a {
 
 #body-content {
   padding: 0 25px;
+}
+
+#body-content h2 {
+  margin-top:30px;
+  margin-bottom:0;
+  font-size: 32px;
+  font-weight:300;
+  line-height: 1.1;
+  color: #000;
+  border: 0;
+}
+
+#body-content h3 {
+  margin-top:20px;
+  margin-bottom:10px;
+  font-size: 18px;
+  font-weight:700;
+  line-height: 1;
+  color: #808080;
+  padding:12px;
+  background:#e9f0f3;
+}
+
+#body-content h6 {
+  font-size: 22px;
+  margin-top:20px;
+  margin-bottom:10px;
 }
 
 #intro img {
