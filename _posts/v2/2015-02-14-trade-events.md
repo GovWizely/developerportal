@@ -115,7 +115,7 @@ The *source_last_updated* field reflects the most recent date and time we notice
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Examples of the Four Event Sources
+##Four Sources for Trade Events
 
 State Department (DL) 
 
