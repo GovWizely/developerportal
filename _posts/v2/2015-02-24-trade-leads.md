@@ -300,3 +300,16 @@ The [Australian Government](https://www.tenders.gov.au/) provides procurement in
 | url                             | URL that pertains to the bid. |
 | source                          | AUSTRALIA |
 
+
+##USTDA Leads
+
+##Return Values for USTDA
+
+| Field                           | Description  |
+| ------                          | -------------|  
+| title                           | Title of the procurement opportunity. |
+| description                     | Description of the opportunity. |
+| publish_date                    | Date lead was posted. |
+| end_date                        | Closing date for the contract period.  |
+| url                             | URL that pertains to the bid. |
+| source                          | USTDA |
