@@ -7,11 +7,11 @@ published: true
 
 #Trade Leads API
 
-{% include trade-leads-tabs %}
+{% include trade-leads/trade-leads-tabs %}
 
 ##Resource URL
 
-{% include trade-leads-query.html %}
+{% include trade-leads/trade-leads-query.html %}
 
 ##Search Parameters for all leads
 
@@ -23,7 +23,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 **_Example_**
 
-{% include trade-leads-query-keyword.html %}
+{% include trade-leads/trade-leads-query-keyword.html %}
 
 ###industries
 
@@ -33,7 +33,7 @@ Returns trade leads for a specific controlled industry terms. This method allows
 
 **_Example_**
 
-{% include trade-leads-query-industry.html %}
+{% include trade-leads/trade-leads-query-industry.html %}
 
 ###countries
 
@@ -43,7 +43,27 @@ Returns trade leads for a specific **country** based on [ISO alpha-2 country cod
 
 **_Example_**
 
-{% include trade-leads-query-country.html %}
+{% include trade-leads/trade-leads-query-country.html %}
+
+###trade_regions
+
+Returns trade leads for a specific Trade Region.  Enter multiple values by separating with a comma.
+
+    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&trade_regions={Region 1,Region 2}
+
+**_Example_**
+
+{% include trade-leads/trade-leads-query-trade-regions.html %}
+
+###world_regions
+
+Returns trade leads for a specific World Region.  Enter multiple values by separating with a comma.
+
+    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&trade_regions={Region 1,Region 2}
+
+**_Example_**
+
+{% include trade-leads/trade-leads-query-world-regions.html %}
 
 ###sources
 
@@ -55,7 +75,7 @@ Possible values of the source field:  CANADA, FBO, STATE, UK, MCA
 
 **_Example_**
 
-{% include trade-leads-query-source.html %}
+{% include trade-leads/trade-leads-query-source.html %}
 
 ###publish_date
 
@@ -66,7 +86,7 @@ Returns leads based on their publish date.  Dates are filtered by comparing them
 
 **_Example_**
 
-{% include trade-leads-query-publishdate.html %}
+{% include trade-leads/trade-leads-query-publishdate.html %}
 
 ###end_date
 
@@ -77,7 +97,7 @@ Returns leads based on their end date.  Dates are filtered by comparing them aga
 
 **_Example_**
 
-{% include trade-leads-query-enddate.html %}
+{% include trade-leads/trade-leads-query-enddate.html %}
 
 ###publish_date_amended
 
@@ -88,7 +108,7 @@ Returns leads based on their amended publish date.  Dates are filtered by compar
 
 **_Example_**
 
-{% include trade-leads-query-publishdate-amended.html %}
+{% include trade-leads/trade-leads-query-publishdate-amended.html %}
 
 ###size + offset
 
@@ -98,7 +118,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include trade-leads-query-size.html %}
+{% include trade-leads/trade-leads-query-size.html %}
 
 ##Metadata
 
@@ -153,6 +173,8 @@ Canadian leads are subject to Canada's license located at:
 | contact                              | Point of contact. |
 | urls                                 | URLs that pertain to the bid. |
 | source                               | CANADA. |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |
 
 
 ## FedBizOps / FBOpen Leads
@@ -182,6 +204,8 @@ Canadian leads are subject to Canada's license located at:
 | specific_location                    | Location of the opportunity. | 
 | specific_address                     | Address of the opportunity's location. | 
 | source                               | FBO. |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |
 
 
 ##State Department Description
@@ -220,6 +244,8 @@ State Department leads are subject to their open government license located at:
 | url                                  | URL that pertains to the bid. |
 | status                             | Status of the lead (note this API only shows open leads). |
 | source                             | STATE. |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |
 
 ##UK Government Leads
 
@@ -251,6 +277,8 @@ UK leads are subject to their open government license located at:
 | industry                        | Industry tag associated with the lead. |
 | specific_location               | Location of the opportunity. | 
 | source                          | UK. |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |
 
 ##Millennium Challenge Corporation Account (MCA) Leads
 
@@ -272,6 +300,8 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 | &nbsp;&nbsp;&nbsp;&nbsp; _item n_                        | 			    |
 | funding_source                  | Millennium Challenge Account (MCA). |
 | source                     	  | MCA. |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |
 
 CPV numbers in the categories array refer to the [Common Procurement Vocabulary](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) of the European Union.  Use these to help categorize the leads from the MCA.  For example, CPV/45331110 refers to Boiler installation work.
 
@@ -299,6 +329,8 @@ The [Australian Government](https://www.tenders.gov.au/) provides procurement in
 | topic                           | Short description of the category that the lead falls under. |
 | url                             | URL that pertains to the bid. |
 | source                          | AUSTRALIA |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |
 
 
 ##USTDA Leads
@@ -313,3 +345,5 @@ The [Australian Government](https://www.tenders.gov.au/) provides procurement in
 | end_date                        | Closing date for the contract period.  |
 | url                             | URL that pertains to the bid. |
 | source                          | USTDA |
+| trade_regions                        | Trade Regions associated with the lead.  |
+| world_regions                        | World Regions associated with the lead.  |

@@ -29,7 +29,7 @@ Returns de minimis rates for a match in the **country** or **notes** fields.
 
 ###countries
 
-Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/country_codes). Enter multiple terms by seperating with a comma.
+Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/country_codes). Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v1/de_minimis/search?api_key={your key}&countries={country code}
 

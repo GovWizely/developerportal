@@ -7,13 +7,13 @@ published: true
 
 #Trade Events API
 
-{% include events-tabs %}
+{% include trade-events/events-tabs %}
 
 ##Resource URL
 
 This endpoint will search across all four trade event sources.  To search a subset, see sources below.
 
-{% include trade-events-query.html %}
+{% include trade-events/trade-events-query.html %}
 
 ##Search Parameters for trade events sources
 
@@ -25,7 +25,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 **_Example_**
 
-{% include trade-events-query-keyword.html %}
+{% include trade-events/trade-events-query-keyword.html %}
 
 ###industries
 
@@ -35,7 +35,7 @@ Returns trade events for a specific [controlled industry names]({{ site.baseurl 
 
 **_Example_**
 
-{% include trade-events-query-industry.html %}
+{% include trade-events/trade-events-query-industry.html %}
 
 ###countries
 
@@ -45,7 +45,27 @@ Returns trade events for a specific country based on [ISO alpha-2 country codes]
 
 **_Example_**
 
-{% include trade-events-query-country.html %}
+{% include trade-events/trade-events-query-country.html %}
+
+###trade_regions
+
+Returns trade events for a specific Trade Region.  Enter multiple values by separating with a comma.
+
+    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&trade_regions={Region 1,Region 2}
+
+**_Example_**
+
+{% include trade-events/trade-events-query-trade-regions.html %}
+
+###world_regions
+
+Returns trade events for a specific World Region.  Enter multiple values by separating with a comma.
+
+    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&trade_regions={Region 1,Region 2}
+
+**_Example_**
+
+{% include trade-events/trade-events-query-world-regions.html %}
 
 ###sources
 
@@ -55,7 +75,7 @@ Searches only the events specified by the **Source** Abbreviation.
 
 **_Example_**
 
-{% include trade-events-query-source.html %}
+{% include trade-events/trade-events-query-source.html %}
 
 Source Abbreviations as follows:
 
@@ -74,7 +94,7 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 
 **_Example_**
 
-{% include trade-events-query-startdate.html %}
+{% include trade-events/trade-events-query-startdate.html %}
 
 ###end_date
 
@@ -85,7 +105,7 @@ Returns events based on their end date.  Dates are filtered by comparing them ag
 
 **_Example_**
 
-{% include trade-events-query-enddate.html %}
+{% include trade-events/trade-events-query-enddate.html %}
 
 ###size + offset
 
@@ -95,7 +115,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include trade-events-query-size.html %}
+{% include trade-events/trade-events-query-size.html %}
 
 ##Metadata
 
@@ -119,19 +139,19 @@ The *search_performed_at* field displays the date and time of the current search
 
 State Department (DL) 
 
-{% include trade-events-query-dl.html %}
+{% include trade-events/trade-events-query-dl.html %}
 
 International Trade Administration (ITA) 
 
-{% include trade-events-query-ita.html %}
+{% include trade-events/trade-events-query-ita.html %}
 
 Small Business Administration (SBA) 
 
-{% include trade-events-query-sba.html %}
+{% include trade-events/trade-events-query-sba.html %}
 
 U.S. Trade and Development Agency (USTDA) 
 
-{% include trade-events-query-ustda.html %}
+{% include trade-events/trade-events-query-ustda.html %}
 
 ##Return Values
 
@@ -165,3 +185,5 @@ Each event source returns a unique set of fields.  Not every source provides all
 | source        	 | Agency providing the event information. 			   	   | DL, ITA, SBA								|
 | registration_title | Title of the registration URL.           | ITA, USTDA									|
 | cost_currency      | The currency of the cost value.          | USTDA										|
+| trade_regions      | The trade regions associated with the event.  |  ITA, SBA, USTDA |
+| world_regions      | The world regions associated with the event.  |  ITA, SBA, USTDA  |
