@@ -5,7 +5,7 @@ title: Trade Events API
 published: true
 ---
 
-#Trade Events API
+# Trade Events API
 
 {% include trade-events/events-tabs %}
 
