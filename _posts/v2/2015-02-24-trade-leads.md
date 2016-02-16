@@ -5,17 +5,17 @@ title: Trade Leads API
 published: true
 ---
 
-#Trade Leads API
+# Trade Leads API
 
 {% include trade-leads/trade-leads-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include trade-leads/trade-leads-query.html %}
 
-##Search Parameters for all leads
+## Search Parameters for all leads
 
-###keyword
+### keyword
 
 Searches for a match within the **title**, **description**, **topic**, **tags**, and **procurement_organization** fields.
 
@@ -25,7 +25,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 {% include trade-leads/trade-leads-query-keyword.html %}
 
-###industries
+### industries
 
 Returns trade leads for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.
 
@@ -35,7 +35,7 @@ Returns trade leads for a specific controlled industry terms. This method allows
 
 {% include trade-leads/trade-leads-query-industry.html %}
 
-###countries
+### countries
 
 Returns trade leads for a specific **country** based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per lead. 
 
@@ -45,7 +45,7 @@ Returns trade leads for a specific **country** based on [ISO alpha-2 country cod
 
 {% include trade-leads/trade-leads-query-country.html %}
 
-###trade_regions
+### trade_regions
 
 Returns trade leads for a specific Trade Region.  Enter multiple values by separating with a comma.
 
@@ -55,7 +55,7 @@ Returns trade leads for a specific Trade Region.  Enter multiple values by separ
 
 {% include trade-leads/trade-leads-query-trade-regions.html %}
 
-###world_regions
+### world_regions
 
 Returns trade leads for a specific World Region.  Enter multiple values by separating with a comma.
 
@@ -65,7 +65,7 @@ Returns trade leads for a specific World Region.  Enter multiple values by separ
 
 {% include trade-leads/trade-leads-query-world-regions.html %}
 
-###sources
+### sources
 
 Searches only the leads specified by the **Source** field.
 
@@ -77,7 +77,7 @@ Possible values of the source field:  CANADA, FBO, STATE, UK, MCA
 
 {% include trade-leads/trade-leads-query-source.html %}
 
-###publish_date
+### publish_date
 
 Returns leads based on their publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -88,7 +88,7 @@ Returns leads based on their publish date.  Dates are filtered by comparing them
 
 {% include trade-leads/trade-leads-query-publishdate.html %}
 
-###end_date
+### end_date
 
 Returns leads based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -99,7 +99,7 @@ Returns leads based on their end date.  Dates are filtered by comparing them aga
 
 {% include trade-leads/trade-leads-query-enddate.html %}
 
-###publish_date_amended
+### publish_date_amended
 
 Returns leads based on their amended publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -110,7 +110,7 @@ Returns leads based on their amended publish date.  Dates are filtered by compar
 
 {% include trade-leads/trade-leads-query-publishdate-amended.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -120,9 +120,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include trade-leads/trade-leads-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -134,11 +134,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Canadian Leads
+## Canadian Leads
 
 The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.
 
@@ -148,7 +148,7 @@ Canadian leads are subject to Canada's license located at:
 
 [http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
 
-##Return Values for Canada
+## Return Values for Canada
 
 | Field	                               | Description  |
 | ------                               | -------------|
@@ -177,12 +177,12 @@ Canadian leads are subject to Canada's license located at:
 | world_regions                        | World Regions associated with the lead.  |
 
 
-## FedBizOps / FBOpen Leads
+##  FedBizOps / FBOpen Leads
 
 [FedBizOps](https://www.fbo.gov/) is an online system provided by the General Services Administration that publishes procurement opportunities on behalf of 132 federal agencies.  The ITA Trade Leads API includes only non-U.S. based  procurements that are available through the [FBOpen endpoint](https://fbopen.gsa.gov/).
 
 
-##Return Values for FBOpen
+## Return Values for FBOpen
 
 
 | Field	                               | Description  |
@@ -208,7 +208,7 @@ Canadian leads are subject to Canada's license located at:
 | world_regions                        | World Regions associated with the lead.  |
 
 
-##State Department Description
+## State Department Description
 
 The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
 
@@ -218,7 +218,7 @@ State Department leads are subject to their open government license located at:
 
 [https://github.com/USStateDept/bids-archive](https://github.com/USStateDept/bids-archive)
 
-##Return Values for State Department
+## Return Values for State Department
 
 | Field	                             | Description  |
 | ------                             | -------------|  
@@ -247,7 +247,7 @@ State Department leads are subject to their open government license located at:
 | trade_regions                        | Trade Regions associated with the lead.  |
 | world_regions                        | World Regions associated with the lead.  |
 
-##UK Government Leads
+## UK Government Leads
 
 The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides procurement information for their government opportunities.
 
@@ -257,7 +257,7 @@ UK leads are subject to their open government license located at:
 
 [http://www.nationalarchives.gov.uk/doc/open-government-licence/](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
 
-##Return Values for UK
+## Return Values for UK
 
 | Field	                          | Description  |
 | ------                          | -------------|  
@@ -280,11 +280,11 @@ UK leads are subject to their open government license located at:
 | trade_regions                        | Trade Regions associated with the lead.  |
 | world_regions                        | World Regions associated with the lead.  |
 
-##Millennium Challenge Corporation Account (MCA) Leads
+## Millennium Challenge Corporation Account (MCA) Leads
 
 The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement information for opportunities that meet their rigorous standards.
 
-##Return Values for MCA
+## Return Values for MCA
 
 | Field	                          | Description  |
 | ------                          | -------------|  
@@ -305,11 +305,11 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 
 CPV numbers in the categories array refer to the [Common Procurement Vocabulary](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) of the European Union.  Use these to help categorize the leads from the MCA.  For example, CPV/45331110 refers to Boiler installation work.
 
-##Australia Leads
+## Australia Leads
 
 The [Australian Government](https://www.tenders.gov.au/) provides procurement information for their government opportunities.
 
-##Return Values for Australia
+## Return Values for Australia
 
 | Field                           | Description  |
 | ------                          | -------------|  
@@ -333,9 +333,9 @@ The [Australian Government](https://www.tenders.gov.au/) provides procurement in
 | world_regions                        | World Regions associated with the lead.  |
 
 
-##USTDA Leads
+## USTDA Leads
 
-##Return Values for USTDA
+## Return Values for USTDA
 
 | Field                           | Description  |
 | ------                          | -------------|  
