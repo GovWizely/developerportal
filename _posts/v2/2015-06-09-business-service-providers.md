@@ -11,6 +11,8 @@ layout: body
 
 ##Resource URL
 
+_Note: be sure to include the version number (v#) in the URL as specified below._
+
 {% include business-service-providers-query.html %}
 
 ##Search Parameters for Business Service Providers
@@ -19,7 +21,7 @@ layout: body
 
 Returns business service providers for a match in the **company_name**, **company_description**, or **contact_name** fields.
 
-    {{ site.webservices_baseurl }}/business_service_providers/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/v1/business_service_providers/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +31,7 @@ Returns business service providers for a match in the **company_name**, **compan
 
 Returns business service providers based on country. Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/business_service_providers/search?api_key={your key}&ita_offices={countries}
+    {{ site.webservices_baseurl }}/v1/business_service_providers/search?api_key={your key}&ita_offices={countries}
 
 **_Example_**
 
@@ -39,7 +41,7 @@ Returns business service providers based on country. Enter multiple terms by sep
 
 Returns business service providers for a specific [category]({{ site.baseurl }}/business-service-providers-categories.html). Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/business_service_providers/search?api_key={your key}&categories={categories}
+    {{ site.webservices_baseurl }}/v1/business_service_providers/search?api_key={your key}&categories={categories}
 
 **_Example_**
 
@@ -49,7 +51,7 @@ Returns business service providers for a specific [category]({{ site.baseurl }}/
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
-    {{ site.webservices_baseurl }}/business_service_providers/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+    {{ site.webservices_baseurl }}/v1/business_service_providers/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
 **_Example_**
 
