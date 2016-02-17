@@ -5,17 +5,17 @@ title: Business Service Providers
 layout: body
 ---
 
-#Business Service Providers API
+# Business Service Providers API
 
 {% include business-service-providers-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include business-service-providers-query.html %}
 
-##Search Parameters for Business Service Providers
+## Search Parameters for Business Service Providers
 
-###keyword
+### keyword
 
 Returns business service providers for a match in the **company_name**, **company_description**, or **contact_name** fields.
 
@@ -25,7 +25,7 @@ Returns business service providers for a match in the **company_name**, **compan
 
 {% include business-service-providers-query-keyword.html %}
 
-###ita_offices
+### ita_offices
 
 Returns business service providers based on country. Enter multiple terms by separating with a comma.
 
@@ -35,7 +35,7 @@ Returns business service providers based on country. Enter multiple terms by sep
 
 {% include business-service-providers-query-keyword-ita-offices.html %}
 
-###categories
+### categories
 
 Returns business service providers for a specific [category]({{ site.baseurl }}/business-service-providers-categories.html). Enter multiple terms by separating with a comma.
 
@@ -45,7 +45,7 @@ Returns business service providers for a specific [category]({{ site.baseurl }}/
 
 {% include business-service-providers-query-keyword-categories.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -55,9 +55,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include business-service-providers-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -69,11 +69,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
