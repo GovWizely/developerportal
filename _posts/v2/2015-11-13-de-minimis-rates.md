@@ -41,7 +41,7 @@ Returns de minimis rates for a specific country based on [ISO alpha-2 country co
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
-    {{ site.webservices_baseurl }}/de_minimis/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+    {{ site.webservices_baseurl }}/v1/de_minimis/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
 **_Example_**
 
