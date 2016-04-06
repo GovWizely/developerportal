@@ -1,0 +1,11 @@
+    <div class="view">
+
+      <h2>Search Results</h2>
+
+        <ul>
+          <% _.each(obj, function(term) { %>
+            <li><a href=<%= '#' + term.id %> > <%= term.label %> </a></li>
+          <% }); %> 
+        </ul>
+
+    </div>
