@@ -1,9 +1,4 @@
----
-layout: index
-title: ITA's Data Services Platform
-published: true
----
-      <!--<section id="home">
+<!--<section id="home">
       <h1><a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to ITA's Developer Portal
 		<div class="imageBox">
 		<div class="imageinn">
@@ -23,8 +18,8 @@ published: true
       
        <section id="intro">
       	<div class="clearfix">
-      	<h1>Welcome to ITA's Data Services Platform</h1>
-		
+      	<h1 id="home-title">Welcome to ITA's Data Services Platform</h1>
+		<ul id="info" >
 		<div id="sect1">
 		<h3>Authoritative Data on U.S. Exporting</h3>
 		<p>The Data Services Platform from the International Trade Administration (ITA) provides direct access to authoritative information on U.S. exporting and international trade via standard APIs.  ITA has built the platform to be the central source for exporting data important to small and medium sized U.S. businesses.</p>
@@ -61,6 +56,12 @@ published: true
 		
 		</div>
 		</div>	
+		</ul>
+
+		<ul id="side">
+		<h3>News</h3>
+        {% include news-box %}
+		</ul>
 
 	  </div>
       </section>

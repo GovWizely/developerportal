@@ -334,6 +334,10 @@ section p a {
   margin-bottom:10px;
 }
 
+#intro {
+padding: 30px 40px;
+}
+
 #intro img {
   border: none;
   background: none;
@@ -360,8 +364,8 @@ section p a {
 #sect2 ul {
   display: inline-block;
   float: left;
-  max-width: 160px;
-  margin: 0px;
+  max-width: 200px;
+  margin: 0 30px;
   padding: 0px;
   margin-right: 15px;
 }
@@ -369,8 +373,8 @@ section p a {
 #sect2 .last {
   display: inline-block;
   float: left;
-  max-width: 130px;
-  margin: 0px;
+  max-width: 200px;
+  margin: 0 30px;
   padding: 0px;
 }
 
@@ -683,6 +687,7 @@ display:none;
     float: left;
     position: relative;
     margin-bottom: 0;
+    padding:20px;
   }
 
   #mob h3 {
