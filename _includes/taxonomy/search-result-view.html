@@ -1,11 +1,15 @@
-    <div class="view">
+<div class="view">
 
-      <h2>Search Results</h2>
+  <div id="json-collapsible" class="collapse">
+    <pre class='json'><%= JSON.stringify(obj, undefined, 4) %></pre>
+  </div>
 
-        <ul>
-          <% _.each(obj, function(term) { %>
-            <li><a href=<%= '#' + term.id %> > <%= term.label %> </a></li>
-          <% }); %> 
-        </ul>
+  <h2>Search Results</h2>
 
-    </div>
+  <ul>
+    <% _.each(obj, function(term) { %>
+      <li><a href=<%= '#' + term.id %> > <%= term.label %> </a></li>
+    <% }); %> 
+  </ul>
+
+</div>

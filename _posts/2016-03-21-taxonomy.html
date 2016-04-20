@@ -14,12 +14,18 @@ published: true
 </head>
 <body>
 
-  <form class="taxonomy-search-form" onsubmit="performSearch()">
-    <input type="text" id="query">
-    <input type="submit" value="Search">
-  </form> 
+  <div id='top-bar'>
+    <button data-toggle="collapse" data-target="#json-collapsible">JSON</button>
+    <button>XML</button>
+    <button>Download Taxonomy</button>
 
-  <div id="content">
+    <form class="taxonomy-search-form" onsubmit="performSearch()">
+      <input type="text" id="query">
+      <input type="submit" value="Search">
+    </form> 
+  </div>
+
+  <div id="taxonomy-content">
 
   </div>
 
@@ -49,7 +55,7 @@ published: true
     app.api_key = '{{ site.apikey }}';
 
     app.TermView = Backbone.View.extend({
-      el: '#content',
+      el: '#taxonomy-content',
       template: _.template($('#term-template').html()),
 
       render: function(){
@@ -63,7 +69,7 @@ published: true
     });
 
     app.SearchView = Backbone.View.extend({
-      el: '#content',
+      el: '#taxonomy-content',
       template: _.template($('#search-result-template').html()),
 
       render: function(){
