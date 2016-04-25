@@ -40,7 +40,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 Returns entries based on the final_year field.  Years are specified as a comma-delimited list.
 
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&final_years={YYYY,YYYY}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&final_years={YYYY,YYYY}
 
 **_Example_**
 
@@ -50,7 +50,7 @@ Returns entries based on the final_year field.  Years are specified as a comma-d
 
 Returns entries based on the partner_start_year field.  Years are specified as a comma-delimited list.
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&partner_start_year={YYYY,YYYY}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&partner_start_years={YYYY,YYYY}
 
 **_Example_**
 
@@ -60,7 +60,7 @@ Returns entries based on the partner_start_year field.  Years are specified as a
 
 Returns entries based on the reporter_start_year field.  Years are specified as a comma-delimited list.
 
-	{{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY,YYYY}
+	{{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&reporter_start_years={YYYY,YYYY}
 
 **_Example_**
 
@@ -70,7 +70,7 @@ Returns entries based on the reporter_start_year field.  Years are specified as 
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
 **_Example_**
 
