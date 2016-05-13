@@ -100,6 +100,11 @@ published: true
         $('html,body').scrollTop(0);
       },
 
+      render_loading: function(){
+        this.$el.html('<p>Loading...</p>');
+        $('html,body').scrollTop(0);
+      },
+
       update: function(collection){
         collection.sort();
         this.collection = collection;
@@ -175,6 +180,7 @@ published: true
       },
 
       full_taxonomy: function() {
+        app.fullTermsView.render_loading();
         var query = '&size=-1';
         app.termCollection.update_query(query);
         app.termCollection.fetch({
@@ -185,14 +191,14 @@ published: true
         });
       }
     });
-
-    app.termCollection = new app.TermCollection;
-    app.router = new app.Router();
-    Backbone.history.start();
+  
     app.termView = new app.TermView;
     app.searchView = new app.SearchView;
     app.fullTermsView = new app.FullTermsView;
-
+    app.termCollection = new app.TermCollection;
+    app.router = new app.Router();
+    Backbone.history.start();
+    
   </script>
   
 </body>
