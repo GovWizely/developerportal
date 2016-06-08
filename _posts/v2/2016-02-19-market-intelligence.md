@@ -11,7 +11,7 @@ published: true
 
 ## Resource URL
 
-This endpoint will search across the five types of Market Intelligence articles.  To search a subset, see sources below.
+This endpoint will search across all types of Market Intelligence articles.  To search a subset, see sources below.
 
 {% include market-intelligence/query.html %}
 
@@ -19,7 +19,7 @@ This endpoint will search across the five types of Market Intelligence articles.
 
 ### keyword
 
-Searches for a match within the **atom**, **business_unit**, **chapter**, **references**, **section**, **summary**, and **title** fields.
+Searches for a match within the **atom**, **references**, **summary**, and **title** fields.  Note:  the **atom** field is searchable, but not returned in the JSON results.
 
     {{ site.webservices_baseurl }}/market_intelligence/search?api_key={your key}&q={term}
 
@@ -36,6 +36,16 @@ Returns articles for a specific controlled industry term. This method allows you
 **_Example_**
 
 {% include market-intelligence/query-industries.html %}
+
+### topics
+
+Returns articles for a specific topic term. This method allows you to search for multiple topics (plural) separated by commas.
+
+    {{ site.webservices_baseurl }}/market_intelligence/search?api_key={your key}&topics={terms}
+
+**_Example_**
+
+{% include market-intelligence/query-topics.html %}
 
 ### countries
 
@@ -73,27 +83,15 @@ Searches only the articles specified by the **Source**, which corresponds to an 
 
    {{ site.webservices_baseurl }}/market_intelligence/search?api_key={your key}&sources={article source}
 
-#### The Five Source Types for Market Intelligence Articles:
+#### The Source Types for Market Intelligence Articles:
 
 COUNTRY_COMMERCIAL
 
 {% include market-intelligence/query-country-commercial.html %}
 
-GENERIC
-
-{% include market-intelligence/query-generic.html %}
-
 MARKET_INSIGHT
 
 {% include market-intelligence/query-market-insight.html %}
-
-STATE_REPORT
-
-{% include market-intelligence/query-state-report.html %}
-
-TOP_MARKETS
-
-{% include market-intelligence/query-top-markets.html %}
 
 
 ### first_published_date
@@ -158,12 +156,8 @@ The *search_performed_at* field displays the date and time of the current search
 | summary               | A short summary of the article's content.           | ALL |
 | first_published_date  | The date that the article of first published.       | ALL  |
 | last_published_date   | The article's most recent publish date.             | ALL  |
-| atom                  | The full text content of the article.               | ALL |
-| business_unit        |                                                      | COUNTRY_COMMERCIAL, STATE_REPORT, TOP_MARKETS |
-| chapter             |                                                       | ALL  |
-| public_url          |                                                       | ALL  |
-| references           |                                                       | ALL  |
-| section             |                                                       | ALL  |
+| url          |          The URL where the published article is located.                                              | ALL  |
+| references           |  Any reference information related to the article.                                               | ALL  |
 | url_name              | A unique URL indentifier for the article.           | ALL  |
 | industries            | The ITA industry terms associated with the article. | ALL  |
 | topics                | The ITA topic terms associated with the article.    | ALL  |
