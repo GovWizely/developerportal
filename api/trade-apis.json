@@ -1108,7 +1108,7 @@
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the atom, business_unit, chapter, references, section, summary, and title fields.",
+                        "description": "Searches for a match within the atom, references, section, summary, and title fields.  Note:  the atom field is searchable, but not returned in the JSON results.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -1117,6 +1117,14 @@
                         "name": "industries",
                         "in": "query",
                         "description": "Returns articles for a specific controlled industry term. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "topics",
+                        "in": "query",
+                        "description": "Returns articles for a specific topic term. This method allows you to search for multiple topics (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -1148,7 +1156,7 @@
                     {
                         "name": "sources",
                         "in": "query",
-                        "description": "Searches only the events specified by the Source Abbreviation.",
+                        "description": "Searches only the articles specified by the Source Abbreviation.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -2190,27 +2198,11 @@
                     "description": "The article's most recent publish date.",
                     "type": "string"
                 },
-                "atom": {
-                    "description": "The full text content of the article.",
-                    "type": "string"
-                },
-                "business_unit": {
-                    "description": "",
-                    "type": "string"
-                },
-                "chapter": {
-                    "description": "",
-                    "type": "string"
-                },
-                "public_url": {
+                "url": {
                     "description": "",
                     "type": "string"
                 },
                 "references": {
-                    "description": "",
-                    "type": "string"
-                },
-                "section": {
                     "description": "",
                     "type": "string"
                 },
