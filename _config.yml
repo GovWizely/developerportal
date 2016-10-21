@@ -16,6 +16,9 @@ webservices_baseurl_users_signup: 'https://api.govwizely.com/users/sign_up'
 apikey: 'Jnl2JctPOiUL9x7HVFR2m8Sr'
 permalink: pretty
 
+gems:
+- jekyll-coffeescript
+
 left_nav_top_apis:
 - text: Consolidated Screening List
   url: consolidated-screening-list.html
