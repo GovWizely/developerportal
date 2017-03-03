@@ -56,6 +56,8 @@ mobile_nav_additional_resources:
   url: guidance.html
 - text: Contact
   url: contact.html
+- text: Endpointme
+  url: endpointme.html
 - text: App Gallery
   url: app-gallery.html
 - text: List of all APIs
