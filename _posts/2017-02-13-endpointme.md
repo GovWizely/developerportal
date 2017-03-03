@@ -146,11 +146,11 @@ The subsequent rows contain data. As you’re preparing the spreadsheet, you sho
 
 Here is a picture of a sample spreadsheet:
 
-![Sample Spreadsheet Structure](/images/pix/sample_spreadhseet_structure.jpg)
+![Sample Spreadsheet Structure](images/pix/sample_spreadhseet_structure.jpg)
 
 **Note:** The Digital Services Platform can recognize XLS, CSV, and XML formats. In addition, the system can recognize data in a JSON format, although Excel does not save to JSON format.
 
-![Columns](/images/pix/columns.jpg)
+![Columns](images/pix/columns.jpg)
 
 #### How do you log in to the Digital Services Platform?
 To log in to the Digital Services Platform, do the following:
@@ -159,11 +159,11 @@ To log in to the Digital Services Platform, do the following:
 
 **Note:** If you are not already an admin on the Digital Services Platform, you need to be granted admin permission. Email erik.arnold@trade.gov to request admin permission. 
 
-![Main Screen](/images/pix/main_screen.jpg)
+![Main Screen](images/pix/main_screen.jpg)
 
 2. Enter your email and password in the fields and click Log In. When you have logged in, you see the main screen with the list of dynamic APIs as shown below. 
 
-![Logged In](/images/pix/logged_in.jpg)
+![Logged In](images/pix/logged_in.jpg)
 
 #### How do you create a new endpoint?
 
@@ -172,7 +172,7 @@ To create a new endpoint, do the following:
 
 1. After you’re logged in to the Digital Services Platform, the New data source screen appears.
 
-![Upload New Data](/images/pix/upload new data sources.jpg)
+![Upload New Data](images/pix/upload new data sources.jpg)
 
 2. Fill in the fields on the New data source screen as follows: 
 
@@ -190,7 +190,7 @@ To create a new endpoint, do the following:
 
 4. Click Create. The Digital Services Platform uploads the file and evaluates the data in the spreadsheet as well as the information you entered in the information fields. If there is an error of any kind, the Digital Services Platform displays an error message so you can correct the error. When the data and data source information is clean, the Digital Services Platform creates a new endpoint from the information, then displays a results screen similar to the one shown here: 
 
-![Result2](/images/pix/result2.jpg)
+![Result2](images/pix/result2.jpg)
 
 5. The data is now uploaded. You’re ready to complete the upload process [JOHN: Add link], after which you can save the new API to the Digital Services Platform. 
 
@@ -200,7 +200,7 @@ After you successfully upload a spreadsheet to the Digital Services Platform, th
 
 **Note:** The Editing data source screen has two parts: the first part lets you edit basic information about the data source and the second part is focused on the data dictionary.
 
-![Editing Screen Part 1](/images/pix/editing_screen_part1.jpg)
+![Editing Screen Part 1](images/pix/editing_screen_part1.jpg)
 
 1. Review the information in the fields. Make any necessary changes to the field information as follows:
 
@@ -423,7 +423,7 @@ To look at the first page of data in an endpoint, do the following:
 1. Click the API you want to search in the Dynamic APIs list. The API information screen appears. A sample appears below
 
 
-![Edit](/images/pix/edit.jpg)
+![Edit](images/pix/edit.jpg)
 
 2. Click the “API call showing the first page of available data” link. The Digital Services Platform displays the first page of data in the endpoint, a sample of which is shown below.
 
@@ -449,7 +449,7 @@ To search for data using an API call, do the following:
 
 1. Click the API you want to search in the Dynamic APIs list. The API information screen appears. A sample appears below.
 
-![Edit](/images/pix/edit.jpg)
+![Edit](images/pix/edit.jpg)
 
 2. Right-click the “Sample API call” link and select “Copy link address” from the floating menu. 
 
@@ -550,7 +550,7 @@ The [Consolidated Screening List](consolidated-screening-list.html) widget searc
 
 The widget returns results that are either exact matches and near matches in case your customers don’t have the exact spelling of the name. The closer the match, the higher the name in the results.
 
-![Widget](/images/pix/widget.jpg)
+![Widget](images/pix/widget.jpg)
 
 #### Export Assistance Centers Widget
 
@@ -558,13 +558,13 @@ The [Export Assistance Centers](http://developer.trade.gov/ita-zip-codes.html) w
 
 The widget enables your customers to do a quick search for search for both a zip code and a USEAC. Each center has specialists on hand for each particular region.
 
-![Widget](/images/pix/widget.jpg)
+![Widget](images/pix/widget.jpg)
 
 #### International Office Locations Widget
 
 The [International Office Locations](http://developer.trade.gov/ita-office-locations.html) provides direct access to ITA offices and centers around the world. The widget enables your customers to do a quick search for an office in a particular city or country. Each office has specialists on hand for each particular region.
 
-![Widget](/images/pix/widget.jpg)
+![Widget](images/pix/widget.jpg)
 
 #### Trade Leads Widget
 
@@ -572,7 +572,7 @@ The [Trade Leads](trade-leads.html) widget searches contract opportunities for U
 
 The widget enables your customers to do a quick search for trade leads, procurement opportunities, and contract notifications in a particular country or within all countries. They can also search for all of the leads in a country by leaving the search box blank.
 
-![Widget](/images/pix/widget.jpg)
+![Widget](images/pix/widget.jpg)
 
 #### Trade Events Widget
 
@@ -580,7 +580,7 @@ The [Trade Events](trade-events.html) widget searches for events organized by IT
 
 The widget enables your customers to do a quick search for trade events such as industry conferences, webinars, lectures, and trade missions in a particular country or within all countries. They can also search for all of the events in a country by leaving the search box blank.
 
-![Widget](/images/pix/widget.jpg)
+![Widget](images/pix/widget.jpg)
 
 # How do you edit an endpoint?
 
@@ -590,7 +590,7 @@ To edit a data source, do the following:
 
 1. In the Dynamic APIs list, click the name of the API you want to edit. The Digital Services Platform displays an information screen about the API, a sample of which appears below.
 
-![Edit](/images/pix/edit.jpg)
+![Edit](images/pix/edit.jpg)
 
 1. Click Edit at the bottom of the screen. The Editing data source screen appears.
 
@@ -604,11 +604,11 @@ To delete a data source, do the following:
 
 1. In the Dynamic APIs list, click the name of the API you want to edit. The Digital Services Platform displays an information screen about the API, a sample of which appears below.
 
-![Edit](/images/pix/edit.jpg)
+![Edit](images/pix/edit.jpg)
 
 2. Click Delete at the bottom of the screen.  The Digital Services Platform asks you to confirm that you want to delete the data source. 
 
-![Dialog Box](/images/pix/dialog_box.jpg)
+![Dialog Box](images/pix/dialog_box.jpg)
 
 3. Click OK to delete the data source.  The Digital Services Platform removes the data source completely. The name is also removed from the Dynamic APIs list.
 
