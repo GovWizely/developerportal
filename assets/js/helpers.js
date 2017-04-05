@@ -48,10 +48,10 @@ function transformLabels(obj, mapping) {
 }
 
 var annotation_mapping = {
-  prefLabel: "Preferred Term",
-  altLabel: "Used For",
+  pref_label: "Preferred Term",
+  alt_label: "Used For",
   definition: "Definition",
-  scopeNote: "Usage",
+  scope_note: "Usage",
   note: "Note",
   source: "Term Source"
 };
@@ -65,6 +65,6 @@ var object_property_mapping = {
   has_related:  "Related Terms",
   is_top_concept_in_scheme:  "Top Term of",
   micro_thesaurus_of:  "Micro Thesaurus of",
-    is_in_scheme:  "In Scheme",
-    "iso_thes:super_groupsuper_group":  "Sub Group of"
-  };
+  is_in_scheme:  "In Scheme",
+  "iso_thes:super_groupsuper_group":  "Sub Group of"
+};
