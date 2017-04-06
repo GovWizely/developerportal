@@ -13,8 +13,8 @@ function downloadTerms(){
   app.termCollection.fetch({
     success: function(collection, response, options){
       collection.sort();
-      var blob = new Blob([JSON.stringify(collection, null, 4)], {type: "text/plain;charset=utf-8"});
-      saveAs(blob, "taxonomy.txt");
+      var blob = new Blob([JSON.stringify(collection, null, 4)], {type: "application/json"});
+      saveAs(blob, "taxonomy.json");
     }
   });
 }

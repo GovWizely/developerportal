@@ -20,6 +20,10 @@ js_assets:
     {% include taxonomy/term-view.html %}
   </script> 
 
+  <script type="text/template" id="home-template">
+    {% include taxonomy/home-view.html %}
+  </script> 
+
   <script type="text/template" id="search-result-template">
     {% include taxonomy/search-result-view.html %}
   </script> 
@@ -46,6 +50,22 @@ js_assets:
     app.TermView = Backbone.View.extend({
       el: '#taxonomy-content',
       template: _.template($('#term-template').html()),
+
+      render: function(){
+        var json_object = this.model.toJSON();
+        this.$el.html(this.template(json_object));
+        $('html,body').scrollTop(0);
+        window.loadTaxonomyAutocomplete();
+      },
+
+      update: function(model){
+        this.model = model;
+      }
+    });
+
+    app.HomeView = Backbone.View.extend({
+      el: '#taxonomy-content',
+      template: _.template($('#home-template').html()),
 
       render: function(){
         var json_object = this.model.toJSON();
@@ -136,6 +156,11 @@ js_assets:
       app.termView.render();
     }
 
+    app.onIndexFetch = function(model, response, options){
+      app.homeView.update(model);
+      app.homeView.render();
+    }
+
     app.Router = Backbone.Router.extend({
       routes: {
         "search/:query": "search",
@@ -147,7 +172,7 @@ js_assets:
       index: function(){
         var term = new app.Term({id: 'RC7BwiZbq5uJvqujC7p9NAy'});
         term.fetch( {
-          success: app.onTermFetch
+          success: app.onIndexFetch
         });
       },
 
@@ -183,6 +208,7 @@ js_assets:
     });
   
     app.termView = new app.TermView;
+    app.homeView = new app.HomeView;
     app.searchView = new app.SearchView;
     app.fullTermsView = new app.FullTermsView;
     app.termCollection = new app.TermCollection;
