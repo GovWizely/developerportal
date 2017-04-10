@@ -178,9 +178,16 @@ js_assets:
 
       show: function(id) {
         var term = new app.Term({id: id});
-        term.fetch( {
-          success: app.onTermFetch
-        });
+        if (id === 'RC7BwiZbq5uJvqujC7p9NAy'){
+          term.fetch( {
+            success: app.onIndexFetch
+          });
+        }
+        else {
+          term.fetch( {
+            success: app.onTermFetch
+          });
+        }
       },
 
       search: function(query) {
