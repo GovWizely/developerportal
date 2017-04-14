@@ -10,9 +10,11 @@
   margin-top: 10px;
 }
 
-#top-bar button {
-  padding: 2px;
+#top-bar {
+  display: block;
+  overflow: auto;
 }
+
 .taxonomy-search-form{
   float: right;
 }
@@ -24,4 +26,8 @@
 
 #taxonomy-content a {
   color: #08C;
+}
+
+#taxonomy-content h2 {
+  margin-top: 10px;
 }
