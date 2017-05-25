@@ -11,9 +11,9 @@ exclude:
   - Gemfile.lock
   - vendor
 markdown: kramdown
-webservices_baseurl: 'https://api.trade.gov'
+webservices_baseurl: 'http://localhost:3000'
 webservices_baseurl_users_signup: 'https://api.trade.gov/users/sign_up'
-apikey: 'd0lmowK8tvxPixAfm9sKOd_f'
+apikey: 'devkey'
 permalink: pretty
 
 gems:
@@ -26,7 +26,7 @@ left_nav_top_apis:
   url: trade-events.html
 - text: Trade Leads
   url: trade-leads.html
-- text: Tariff Rates
+- text: FTA Tariff Rates
   url: tariff-rates.html
 - text: De Minimis
   url: de-minimis.html
@@ -46,7 +46,7 @@ mobile_nav_top_apis:
   url: trade-events.html
 - text: Trade Leads
   url: trade-leads.html
-- text: Tariff Rates
+- text: FTA Tariff Rates
   url: tariff-rates.html
 - text: De Minimis
   url: de-minimis.html
