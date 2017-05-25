@@ -26,7 +26,7 @@ left_nav_top_apis:
   url: trade-events.html
 - text: Trade Leads
   url: trade-leads.html
-- text: Tariff Rates
+- text: FTA Tariff Rates
   url: tariff-rates.html
 - text: De Minimis
   url: de-minimis.html
@@ -46,7 +46,7 @@ mobile_nav_top_apis:
   url: trade-events.html
 - text: Trade Leads
   url: trade-leads.html
-- text: Tariff Rates
+- text: FTA Tariff Rates
   url: tariff-rates.html
 - text: De Minimis
   url: de-minimis.html
