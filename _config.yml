@@ -62,8 +62,6 @@ mobile_nav_additional_resources:
   url: api-list.html
 - text: API FAQs
   url: api-faqs.html
-- text: Change Log
-  url: change-log.html
 - text: APIs from Trade Agencies
   url: trade-agency-apis.html
 - text: Terms of Service
