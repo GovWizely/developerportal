@@ -3,7 +3,7 @@
 
 extractData = (data) ->
   data.results.map((result) ->
-    result.label
+    result
   )
 
 remoteSource = (request, response) ->
@@ -24,11 +24,11 @@ remoteSource = (request, response) ->
     },
     success: (data) ->
       response extractData(data)
-    error: () ->
+    error: ->
       response []
 
 selectEvent = (event, ui) ->
-  window.location.assign('#search/' + encodeURIComponent(ui.item.value))
+  window.location.assign("taxonomy.html?##{ui.item.id}")
 
 jQuery ->
   $('#query').autocomplete
@@ -41,5 +41,11 @@ loadTaxonomyAutocomplete = ->
       source: remoteSource
       select: selectEvent
       minLength: 2
+    .data('ui-autocomplete')
+    ._renderItem = (ul, item) ->
+      $('<li>')
+        .data('ui-autocomplete-item', item)
+        .append("<a href='taxonomy.html?##{item.id}'>#{item.label}</a>")
+        .appendTo(ul)
 
 window.loadTaxonomyAutocomplete = loadTaxonomyAutocomplete
