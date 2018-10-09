@@ -1,20 +1,17 @@
 ---
 ---
 
-renderData = (response) ->
-  (data) ->
-    response data
-
-renderError = (response) ->
-  () ->
-    response []
+extractData = (data) ->
+  data.results.map((result) ->
+    result.label
+  )
 
 remoteSource = (request, response) ->
-  url = '{{ site.webservices_baseurl }}/ita_taxonomies/suggest'
+  url = '{{ site.webservices_baseurl }}/ita_taxonomies/search'
   data = {
     api_key: '{{ site.apikey }}',
-    size: 10,
-    term: request.term
+    size: 100,
+    q: request.term
   }
 
   $.ajax
@@ -25,8 +22,10 @@ remoteSource = (request, response) ->
     xhrFields: {
       withCredentials: false
     },
-    success: renderData(response),
-    error: renderError(response)
+    success: (data) ->
+      response extractData(data)
+    error: () ->
+      response []
 
 selectEvent = (event, ui) ->
   window.location.assign('#search/' + encodeURIComponent(ui.item.value))
