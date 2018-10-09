@@ -2,9 +2,13 @@
 ---
 
 extractData = (data) ->
-  data.results.map((result) ->
-    result
-  )
+  data.results
+
+onSubmit = (e) ->
+  e.preventDefault()
+  query = $('#query').val()
+  href = "taxonomy.html?#search/" + encodeURIComponent(query)
+  window.location.href = href
 
 remoteSource = (request, response) ->
   url = '{{ site.webservices_baseurl }}/ita_taxonomies/search'
@@ -28,12 +32,7 @@ remoteSource = (request, response) ->
       response []
 
 selectEvent = (event, ui) ->
-  window.location.assign("taxonomy.html?##{ui.item.id}")
-
-jQuery ->
-  $('#query').autocomplete
-    source: remoteSource
-    minLength: 2
+  window.location.assign("?##{ui.item.id}")
 
 loadTaxonomyAutocomplete = ->
   jQuery ->
@@ -41,11 +40,6 @@ loadTaxonomyAutocomplete = ->
       source: remoteSource
       select: selectEvent
       minLength: 2
-    .data('ui-autocomplete')
-    ._renderItem = (ul, item) ->
-      $('<li>')
-        .data('ui-autocomplete-item', item)
-        .append("<a href='taxonomy.html?##{item.id}'>#{item.label}</a>")
-        .appendTo(ul)
+    $('.taxonomy-search-form').on 'submit', onSubmit
 
 window.loadTaxonomyAutocomplete = loadTaxonomyAutocomplete
