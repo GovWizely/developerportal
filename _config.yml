@@ -16,7 +16,7 @@ webservices_baseurl_users_signup: 'https://api.govwizely.com/users/sign_up'
 apikey: 'YvWDPgmuD9E2PJYT06x83LJG'
 permalink: pretty
 
-gems:
+plugins:
 - jekyll-coffeescript
 
 left_nav_top_apis:
