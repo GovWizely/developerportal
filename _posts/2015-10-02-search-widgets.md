@@ -11,42 +11,22 @@ ITA has created these widgets to make it as easy as possible to put a search eng
 
 These search widgets deliver results straight from our APIs so your customers get the same results as anyone using the APIs directly.  Please [contact us](contact.html) if you have any questions on how to install and use the widgets.
 
-<link rel="stylesheet" type="text/css" href="widget.css">
-<script type="text/javascript" src="widget.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/widget_v2_react.css">
+<script type="text/javascript" src="widget_v2_react.js"></script>
 
-  <script>
-      $(document).ready(function ($) {
-        $("#example-widget-container").searchWidget({
-          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
-          host:     'https://api.trade.gov',
-          endpoint: 'consolidated_screening_list'
-        });
-
-        $("#example-trade-leads-widget-container").searchWidget({
-          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
-          host:     'https://api.trade.gov',
-          endpoint: 'trade_leads'
-        });
-
-        $("#example-trade-events-widget-container").searchWidget({
-          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
-          host:     'https://api.trade.gov',
-          endpoint: 'trade_events'
-        });
-
-        $("#example-useac-locations-widget-container").searchWidget({
-          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
-          host:     'https://api.trade.gov',
-          endpoint: 'useac_locations'
-        });
-      
-       $("#example-ita-office-locations-widget-container").searchWidget({
-          apiKey:   'BieztMWzm1EGY71oPH1KFpwm',
-          host:     'https://api.trade.gov',
-          endpoint: 'ita_office_locations'
-        });
-      });
-    </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var endpoints = {
+      "consolidated_screening_list": "example-CSL-widget-container",
+      "trade_leads": "example-trade-leads-widget-container",
+      "trade_events": "example-trade-events-widget-container",
+      "export_assistance_centers": "example-useac-locations-widget-container",
+      "international_office_locations": "example-ita-office-locations-widget-container",
+    };
+    var API_KEY = "1K7HGE9nCfjnmrtfjq69Ehij";
+    window.Explorer.renderWidget(endpoints, API_KEY);
+  });    
+</script>
 
 ---
 
@@ -59,7 +39,7 @@ The widget returns results that are either exact matches and near matches in cas
 <div class="jumbotron transparent">
   <div class="container">
 
-<div id="example-widget-container"></div>
+<div id="example-CSL-widget-container"></div>
 
 </div>
 </div>
